@@ -1,0 +1,751 @@
+error_message,error_type
+SyntaxError: 'return' outside function  [line:287 col:32 id:6678],syntactic
+FileNotFoundError: [Errno 2] No such file or directory: ''input.json''  [line:453 col:67 id:3197],semantic
+SyntaxError: unmatched ')' at line 4  [line:145 col:31 id:5209],syntactic
+SyntaxError: unterminated string literal at line 136  [line:402 col:5 id:9443],lexical
+SyntaxError: unterminated triple-quoted string literal  [line:305 col:62 id:6323],syntactic
+FileNotFoundError: [Errno 2] No such file or directory: ''missing.txt''  [line:384 col:35 id:1496],semantic
+TypeError: 'list' object is not callable  [line:322 col:39 id:4280],lexical
+SyntaxError: invalid use of keyword '%'  [line:372 col:73 id:7902],syntactic
+UnicodeEncodeError: 'ascii' codec can't encode character  [line:472 col:77 id:3225],lexical
+"TypeError: sequence item 1: expected str instance, found int  [line:271 col:39 id:3339]",semantic
+SyntaxError: invalid non-printable character U+201  [line:179 col:19 id:5304],syntactic
+RuntimeError: generator raised StopIteration  [line:418 col:11 id:2392],semantic
+SyntaxError: invalid statement at global scope  [line:367 col:71 id:1072],syntactic
+UnicodeError: unicodeescape codec can't decode bytes  [line:256 col:38 id:3473],lexical
+SyntaxError: unexpected indent at line 94  [line:347 col:61 id:8551],syntactic
+SyntaxError: unexpected indent at line 197  [line:496 col:45 id:5131],syntactic
+ValueError: invalid literal for int() with base 10: '3075b'  [line:125 col:63 id:9124],semantic
+IndentationError: expected an indented block  [line:378 col:32 id:1231],syntactic
+TypeError: unhashable type: 'NoneType'  [line:279 col:43 id:6355],semantic
+"SyntaxError: invalid decimal literal near ','  [line:363 col:27 id:2900]",lexical
+TypeError: 'DataFrame' object is not callable  [line:179 col:17 id:1675],lexical
+TypeError: can't compare 'float' and 'str'  [line:366 col:79 id:5449],semantic
+SyntaxError: invalid statement at global scope  [line:251 col:33 id:9278],syntactic
+SyntaxError: invalid type annotation  [line:138 col:40 id:6833],syntactic
+IndentationError: expected an indented block  [line:237 col:53 id:5436],syntactic
+SyntaxError: cannot assign to literal  [line:194 col:58 id:2812],syntactic
+SyntaxError: invalid use of keyword '*'  [line:432 col:56 id:4800],syntactic
+TypeError: can't multiply sequence by non-int of type 'dict'  [line:10 col:58 id:6572],semantic
+ZeroDivisionError: division by zero  [line:472 col:45 id:8548],semantic
+ImportError: cannot import name 'load' from 'scipy'  [line:109 col:70 id:4662],lexical
+SyntaxError: invalid non-printable character U+201  [line:23 col:48 id:7968],syntactic
+SyntaxError: 'break' outside loop  [line:141 col:77 id:6094],syntactic
+"AssertionError: expected 3, got 3  [line:35 col:67 id:4822]",semantic
+ImportError: cannot import name 'test' from 'random'  [line:185 col:79 id:9110],lexical
+ImportError: cannot import name 'load' from 'cv2'  [line:433 col:68 id:1580],lexical
+IndentationError: expected an indented block  [line:1 col:23 id:1792],syntactic
+ModuleNotFoundError: No module named 'cv2'  [line:27 col:11 id:5465],lexical
+TypeError: unsupported operand type(s) for +: 'int' and 'str'  [line:111 col:9 id:2526],semantic
+IndentationError: expected an indented block  [line:478 col:13 id:7753],syntactic
+SyntaxError: unexpected indent at line 30  [line:383 col:17 id:1378],syntactic
+"TypeError: sequence item 3: expected str instance, found int  [line:93 col:48 id:2796]",semantic
+NameError: free variable 'temp' referenced before assignment  [line:258 col:14 id:4516],semantic
+RuntimeError: dictionary changed size during iteration  [line:341 col:1 id:1335],semantic
+SyntaxError: invalid encoding or BOM in source file  [line:172 col:14 id:2913],lexical
+SyntaxError: EOL while scanning string literal  [line:266 col:68 id:5397],lexical
+TypeError: can't multiply sequence by non-int of type 'float'  [line:37 col:29 id:2452],semantic
+RuntimeError: failed to acquire lock for thread  [line:357 col:57 id:9212],semantic
+SyntaxError: unexpected token ':'  [line:196 col:51 id:5050],syntactic
+OverflowError: numerical result out of range  [line:196 col:37 id:6271],semantic
+SyntaxError: invalid syntax near '=='  [line:186 col:4 id:7043],lexical
+IndexError: tuple index out of range  [line:28 col:65 id:6031],semantic
+ZeroDivisionError: division by zero  [line:361 col:3 id:5338],semantic
+SyntaxError: unexpected indent at line 191  [line:249 col:36 id:6231],syntactic
+SyntaxError: invalid syntax near '->'  [line:190 col:20 id:6739],lexical
+SyntaxError: unexpected EOF while parsing  [line:44 col:30 id:9159],syntactic
+MemoryError: cannot allocate memory  [line:41 col:68 id:7528],semantic
+NameError: name 'flag' is not defined  [line:74 col:34 id:7364],lexical
+SyntaxError: invalid use of keyword ';'  [line:10 col:53 id:2754],syntactic
+ImportError: cannot import 'execute' from 'matplotlib'  [line:350 col:32 id:3929],lexical
+SyntaxError: unterminated string literal at line 139  [line:428 col:19 id:8800],lexical
+UnicodeEncodeError: 'ascii' codec can't encode character  [line:486 col:18 id:2002],lexical
+RuntimeError: generator raised StopIteration  [line:71 col:20 id:6679],semantic
+SyntaxError: cannot mix tabs and spaces  [line:449 col:35 id:5644],syntactic
+ModuleNotFoundError: No module named 'sys'  [line:415 col:76 id:5055],lexical
+SyntaxError: invalid syntax near ';'  [line:139 col:55 id:5781],syntactic
+NameError: name 'value' is not defined  [line:433 col:73 id:5233],lexical
+UnicodeError: unicodeescape codec can't decode bytes  [line:327 col:46 id:1665],lexical
+KeyError: 'config'  [line:284 col:60 id:3906],semantic
+OSError: [Errno 22] Invalid argument: ''data_backup.pkl''  [line:337 col:42 id:3173],semantic
+SyntaxError: unexpected token 'or'  [line:169 col:38 id:8695],syntactic
+SyntaxError: stray character 'y' in expression  [line:158 col:53 id:2853],lexical
+RecursionError: infinite recursion detected in function 'fit'  [line:362 col:51 id:5400],semantic
+SyntaxError: invalid encoding or BOM in source file  [line:326 col:44 id:3337],lexical
+IndentationError: unexpected indent  [line:15 col:71 id:4923],lexical
+SyntaxError: invalid character in f-string  [line:53 col:61 id:6776],syntactic
+ValueError: math domain error  [line:491 col:78 id:8159],semantic
+SyntaxError: stray character 'z' in expression  [line:347 col:12 id:6042],lexical
+UnicodeEncodeError: 'ascii' codec can't encode character  [line:94 col:58 id:6611],lexical
+UnicodeError: unicodeescape codec can't decode bytes  [line:277 col:42 id:7087],lexical
+SyntaxError: unexpected token '::'  [line:468 col:42 id:5567],syntactic
+AttributeError: 'DataFrame' object has no attribute 'transform'  [line:152 col:32 id:6883],semantic
+NameError: name 'x' is not defined  [line:250 col:62 id:1929],lexical
+ValueError: math domain error  [line:367 col:14 id:7280],semantic
+SyntaxError: unexpected indent at line 147  [line:140 col:35 id:1175],syntactic
+SyntaxError: invalid use of keyword ':'  [line:466 col:39 id:7064],syntactic
+RuntimeError: dictionary changed size during iteration  [line:224 col:25 id:6756],semantic
+UnicodeError: unicodeescape codec can't decode bytes  [line:442 col:11 id:8435],lexical
+SyntaxError: unmatched ')' at line 83  [line:95 col:32 id:4972],syntactic
+ImportError: cannot import name 'save' from 'sklearn'  [line:437 col:55 id:8196],lexical
+FileNotFoundError: [Errno 2] No such file or directory: ''data_backup.pkl''  [line:447 col:30 id:5578],semantic
+SyntaxError: unknown token before 'and'  [line:113 col:24 id:7432],lexical
+SyntaxError: invalid target for augmented assignment  [line:378 col:5 id:8180],syntactic
+ValueError: math domain error  [line:366 col:9 id:3113],semantic
+TypeError: 'dict' object is not callable  [line:494 col:50 id:5612],lexical
+SyntaxError: unexpected EOF while parsing  [line:242 col:18 id:3176],syntactic
+SyntaxError: unterminated string literal at line 89  [line:459 col:76 id:1870],lexical
+SyntaxError: unexpected indent at line 70  [line:255 col:22 id:8332],syntactic
+KeyError: missing key 'user' during lookup  [line:238 col:1 id:6328],semantic
+IndexError: tuple index out of range  [line:375 col:53 id:5386],semantic
+NameError: name 'y' is not defined  [line:373 col:52 id:9920],lexical
+SyntaxError: invalid escape sequence '\z'  [line:161 col:26 id:1051],lexical
+SyntaxError: invalid character in identifier  [line:123 col:24 id:4206],lexical
+IndentationError: unexpected indent  [line:369 col:13 id:9494],lexical
+SyntaxError: invalid syntax near '%'  [line:491 col:35 id:3659],lexical
+IndentationError: expected an indented block  [line:208 col:17 id:5957],syntactic
+TypeError: object of type 'NoneType' has no len()  [line:61 col:14 id:2763],semantic
+FileNotFoundError: [Errno 2] No such file or directory: ''output.log''  [line:138 col:32 id:3276],semantic
+"AssertionError: expected 4, got 5  [line:487 col:40 id:2753]",semantic
+SyntaxError: invalid syntax near '+'  [line:118 col:35 id:3848],syntactic
+TypeError: can't compare 'int' and 'dict'  [line:438 col:66 id:9923],semantic
+SyntaxError: missing parentheses in call to 'print'  [line:228 col:68 id:8640],syntactic
+SyntaxError: missing parentheses in call to 'print'  [line:242 col:45 id:4127],syntactic
+NameError: free variable 'value' referenced before assignment  [line:199 col:47 id:8297],semantic
+RecursionError: maximum recursion depth exceeded  [line:204 col:19 id:8792],semantic
+SyntaxError: invalid character in identifier  [line:284 col:20 id:2648],lexical
+KeyError: 'session'  [line:360 col:68 id:9738],semantic
+SyntaxError: expected ':' after 'if' statement  [line:483 col:25 id:3616],syntactic
+TypeError: unsupported operand type(s) for +: 'int' and 'str'  [line:114 col:43 id:1322],semantic
+UnicodeError: unicodeescape codec can't decode bytes  [line:291 col:64 id:5744],lexical
+ValueError: math domain error  [line:47 col:45 id:1507],semantic
+ZeroDivisionError: division by zero  [line:57 col:58 id:1942],semantic
+IndexError: tuple index out of range  [line:356 col:24 id:9786],semantic
+SyntaxError: expected ':' after 'if' statement  [line:22 col:44 id:7116],syntactic
+TypeError: missing 1 required positional argument: 'path'  [line:472 col:46 id:2868],semantic
+KeyError: 'config' not found in mapping  [line:160 col:5 id:7849],lexical
+KeyError: 'user' not found in mapping  [line:431 col:23 id:1869],lexical
+ValueError: could not convert string to float: '2476c'  [line:488 col:3 id:5563],semantic
+ModuleNotFoundError: No module named 'sys'  [line:24 col:70 id:5466],lexical
+SyntaxError: unexpected EOF while parsing  [line:74 col:30 id:7884],syntactic
+AttributeError: module 'sys' has no attribute 'data'  [line:469 col:16 id:2499],lexical
+AttributeError: 'list' object has no attribute 'data'  [line:172 col:41 id:1464],semantic
+SyntaxError: invalid target for augmented assignment  [line:56 col:17 id:7558],syntactic
+SyntaxError: invalid syntax near 'and'  [line:195 col:60 id:1680],lexical
+TypeError: 'NoneType' object is not callable  [line:380 col:62 id:8115],lexical
+NameError: free variable 'result' referenced before assignment  [line:387 col:15 id:2385],semantic
+SyntaxError: invalid non-printable character U+400  [line:87 col:66 id:3664],syntactic
+ValueError: math domain error  [line:393 col:5 id:8432],semantic
+ModuleNotFoundError: No module named 'matplotlib'  [line:335 col:15 id:7090],lexical
+ImportError: cannot find module 'numpy' in sys.path  [line:97 col:23 id:1675],semantic
+SyntaxError: invalid use of keyword '+'  [line:57 col:68 id:1207],syntactic
+AttributeError: 'dict' object has no attribute 'calculate'  [line:285 col:29 id:1605],semantic
+"TypeError: sequence item 3: expected str instance, found int  [line:298 col:66 id:5711]",semantic
+SyntaxError: expected ':' after 'if' statement  [line:128 col:29 id:6318],syntactic
+SyntaxError: 'break' outside loop  [line:159 col:41 id:8606],syntactic
+SyntaxError: invalid character in f-string  [line:200 col:23 id:8045],syntactic
+SyntaxError: cannot mix tabs and spaces  [line:115 col:74 id:6859],syntactic
+SyntaxError: invalid syntax near '/'  [line:306 col:2 id:3986],syntactic
+RecursionError: infinite recursion detected in function 'test'  [line:17 col:71 id:2778],semantic
+TabError: inconsistent use of tabs and spaces in indentation  [line:387 col:33 id:6364],lexical
+SyntaxError: duplicate argument 'y' in function definition  [line:469 col:40 id:2039],syntactic
+TypeError: unsupported operand type(s) for +: 'int' and 'str'  [line:253 col:29 id:8233],semantic
+"SyntaxError: invalid syntax near ','  [line:64 col:39 id:1069]",syntactic
+IndexError: tuple index out of range  [line:6 col:16 id:9913],semantic
+RuntimeError: dictionary changed size during iteration  [line:350 col:10 id:1045],semantic
+TypeError: can't multiply sequence by non-int of type 'list'  [line:383 col:64 id:1135],semantic
+ImportError: cannot import name 'read' from 'torch'  [line:224 col:74 id:2929],lexical
+UnicodeEncodeError: 'ascii' codec can't encode character  [line:365 col:32 id:2315],lexical
+TypeError: missing 1 required positional argument: 'input'  [line:111 col:5 id:6646],semantic
+SyntaxError: unmatched ')' at line 67  [line:101 col:58 id:3132],syntactic
+SyntaxError: unterminated string literal at line 44  [line:356 col:43 id:8557],lexical
+TypeError: unhashable type: 'DataFrame'  [line:390 col:57 id:9019],semantic
+SyntaxError: missing parentheses in call to 'print'  [line:214 col:21 id:3678],syntactic
+UnicodeEncodeError: 'ascii' codec can't encode character  [line:218 col:62 id:4922],lexical
+TypeError: 'dict' object is not callable  [line:375 col:23 id:9726],lexical
+SyntaxError: 'break' outside loop  [line:286 col:46 id:4067],syntactic
+SyntaxError: invalid encoding or BOM in source file  [line:7 col:60 id:6992],lexical
+SyntaxError: invalid target for augmented assignment  [line:24 col:18 id:3791],syntactic
+SyntaxError: invalid syntax near 'and'  [line:270 col:12 id:5148],syntactic
+SyntaxError: unterminated triple-quoted string literal  [line:401 col:77 id:7885],syntactic
+ValueError: could not convert string to float: '7636a'  [line:399 col:3 id:4725],semantic
+"ValueError: not enough values to unpack (expected 4, got 4)  [line:242 col:64 id:2956]",semantic
+SyntaxError: invalid statement at global scope  [line:451 col:7 id:2168],syntactic
+KeyError: 'session'  [line:123 col:7 id:3683],semantic
+SyntaxError: invalid statement at global scope  [line:44 col:73 id:3363],syntactic
+TabError: inconsistent use of tabs and spaces in indentation  [line:174 col:9 id:7971],lexical
+MemoryError: cannot allocate memory  [line:142 col:69 id:4889],semantic
+SyntaxError: invalid character in f-string  [line:179 col:55 id:4871],syntactic
+IndentationError: unexpected unindent at line 19  [line:148 col:76 id:8059],lexical
+RuntimeError: failed to acquire lock for thread  [line:392 col:11 id:6954],semantic
+RecursionError: maximum recursion depth exceeded  [line:390 col:7 id:2758],semantic
+SyntaxError: invalid target for augmented assignment  [line:285 col:73 id:3984],syntactic
+IndexError: tuple index out of range  [line:296 col:58 id:2055],semantic
+SyntaxError: missing parentheses in call to 'print'  [line:243 col:3 id:6529],syntactic
+NameError: free variable 'y' referenced before assignment  [line:245 col:77 id:6586],semantic
+SyntaxError: unmatched ')' at line 43  [line:456 col:9 id:8187],syntactic
+TypeError: can't compare 'dict' and 'tuple'  [line:231 col:68 id:5997],semantic
+SyntaxError: unterminated string literal at line 96  [line:323 col:19 id:4902],lexical
+AttributeError: module 'sys' has no attribute 'length'  [line:218 col:80 id:5150],lexical
+SyntaxError: invalid statement at global scope  [line:195 col:71 id:9325],syntactic
+ModuleNotFoundError: No module named 'torch'  [line:73 col:14 id:9790],lexical
+SyntaxError: invalid character in f-string  [line:290 col:61 id:2501],syntactic
+KeyError: 'config' not found in mapping  [line:466 col:1 id:8643],lexical
+SyntaxError: illegal expression for augmented assignment  [line:382 col:79 id:1521],syntactic
+TabError: inconsistent use of tabs and spaces in indentation  [line:252 col:16 id:3671],lexical
+SyntaxError: invalid character in f-string  [line:223 col:35 id:3572],syntactic
+SyntaxError: invalid escape sequence '\y'  [line:421 col:46 id:6408],lexical
+ValueError: could not convert string to float: '8443a'  [line:187 col:13 id:3345],semantic
+SyntaxError: stray character 'x' in expression  [line:181 col:59 id:7274],lexical
+UnicodeEncodeError: 'ascii' codec can't encode character  [line:370 col:7 id:8266],lexical
+MemoryError: cannot allocate memory  [line:411 col:41 id:9672],semantic
+"ValueError: not enough values to unpack (expected 2, got 3)  [line:223 col:30 id:1002]",semantic
+TabError: inconsistent use of tabs and spaces in indentation  [line:286 col:13 id:9205],lexical
+SyntaxError: cannot assign to literal  [line:355 col:71 id:2565],syntactic
+ModuleNotFoundError: No module named 'matplotlib'  [line:179 col:10 id:8724],lexical
+SyntaxError: missing parentheses in call to 'print'  [line:407 col:37 id:7488],syntactic
+AttributeError: 'NoneType' object has no attribute 'execute'  [line:415 col:7 id:3580],semantic
+SyntaxError: unterminated string literal at line 61  [line:125 col:40 id:6785],lexical
+ImportError: cannot import name 'fit' from 'pandas'  [line:92 col:57 id:4508],lexical
+SyntaxError: unexpected EOF while parsing  [line:468 col:34 id:3923],syntactic
+RuntimeError: failed to acquire lock for thread  [line:69 col:3 id:7420],semantic
+SyntaxError: stray character 'z' in expression  [line:344 col:46 id:9645],lexical
+AttributeError: module 'numpy' has no attribute 'apply'  [line:195 col:46 id:2818],lexical
+OverflowError: numerical result out of range  [line:361 col:79 id:8754],semantic
+SyntaxError: invalid syntax near '%'  [line:425 col:4 id:8838],lexical
+TypeError: unsupported operand type(s) for +: 'int' and 'str'  [line:367 col:18 id:6715],semantic
+ValueError: could not convert string to float: '6466c'  [line:433 col:4 id:3284],semantic
+IndentationError: expected an indented block  [line:198 col:27 id:2813],syntactic
+TypeError: can't compare 'int' and 'tuple'  [line:142 col:5 id:6894],semantic
+SyntaxError: EOL while scanning string literal  [line:273 col:41 id:3653],lexical
+SyntaxError: 'break' outside loop  [line:432 col:55 id:6015],syntactic
+SyntaxError: missing parentheses in call to 'print'  [line:233 col:67 id:3070],syntactic
+SyntaxError: duplicate argument 'temp' in function definition  [line:311 col:79 id:9187],syntactic
+SyntaxError: expected ':' after 'if' statement  [line:34 col:57 id:5183],syntactic
+SyntaxError: invalid syntax near '**'  [line:153 col:45 id:1587],lexical
+SyntaxError: invalid statement at global scope  [line:190 col:17 id:5689],syntactic
+TypeError: can't multiply sequence by non-int of type 'dict'  [line:424 col:24 id:8099],semantic
+AttributeError: 'dict' object has no attribute 'apply'  [line:2 col:4 id:9747],semantic
+IndentationError: unexpected unindent at line 7  [line:107 col:5 id:6198],lexical
+SyntaxError: invalid character in f-string  [line:330 col:78 id:8502],syntactic
+RecursionError: infinite recursion detected in function 'process'  [line:467 col:35 id:4590],semantic
+SyntaxError: invalid target for augmented assignment  [line:320 col:58 id:8202],syntactic
+IndexError: list index out of range  [line:59 col:66 id:8252],semantic
+ImportError: cannot import name 'write' from 'numpy'  [line:7 col:57 id:7067],lexical
+KeyError: 'token'  [line:241 col:5 id:2868],semantic
+ImportError: cannot import name 'test' from 'matplotlib'  [line:289 col:37 id:6648],lexical
+SyntaxError: cannot assign to literal  [line:126 col:36 id:5503],syntactic
+TypeError: 'list' object is not callable  [line:492 col:24 id:3346],lexical
+SyntaxError: cannot assign to literal  [line:172 col:13 id:9045],syntactic
+TypeError: can't compare 'int' and 'tuple'  [line:497 col:63 id:4416],semantic
+FileNotFoundError: [Errno 2] No such file or directory: ''report.xml''  [line:477 col:28 id:4297],semantic
+ModuleNotFoundError: No module named 'tensorflow'  [line:469 col:23 id:8362],lexical
+AttributeError: 'dict' object has no attribute 'apply'  [line:150 col:46 id:7013],semantic
+AttributeError: module 'numpy' has no attribute 'data'  [line:154 col:77 id:1260],lexical
+SyntaxError: invalid syntax near '//'  [line:319 col:70 id:7776],lexical
+SyntaxError: invalid encoding or BOM in source file  [line:329 col:72 id:4898],lexical
+SyntaxError: EOL while scanning string literal  [line:215 col:62 id:7526],lexical
+SyntaxError: invalid character in f-string  [line:273 col:13 id:2520],syntactic
+SyntaxError: invalid character in f-string  [line:419 col:20 id:4434],syntactic
+SyntaxError: invalid encoding or BOM in source file  [line:402 col:1 id:3568],lexical
+ImportError: cannot import name 'get' from 'pandas'  [line:498 col:7 id:4978],semantic
+ValueError: invalid literal for int() with base 10: '7171b'  [line:458 col:34 id:4197],semantic
+ValueError: invalid literal for int() with base 10: '2558b'  [line:420 col:45 id:9327],semantic
+SyntaxError: unterminated triple-quoted string literal  [line:351 col:9 id:8176],syntactic
+ValueError: could not convert string to float: '1945c'  [line:161 col:27 id:6735],semantic
+SyntaxError: cannot mix tabs and spaces  [line:309 col:18 id:6912],syntactic
+SyntaxError: invalid target for augmented assignment  [line:1 col:75 id:2278],syntactic
+SyntaxError: missing parentheses in call to 'print'  [line:243 col:26 id:3019],syntactic
+TabError: inconsistent use of tabs and spaces in indentation  [line:276 col:50 id:9861],lexical
+RuntimeError: dictionary changed size during iteration  [line:104 col:35 id:3349],semantic
+SyntaxError: unterminated triple-quoted string literal  [line:167 col:78 id:8952],syntactic
+SyntaxError: invalid type annotation  [line:284 col:10 id:2009],syntactic
+SyntaxError: invalid decimal literal near 'and'  [line:233 col:76 id:4889],lexical
+TypeError: 'dict' object is not callable  [line:230 col:5 id:2224],lexical
+ImportError: cannot import name 'load' from 'pandas'  [line:399 col:27 id:7461],lexical
+SyntaxError: invalid non-printable character U+345  [line:274 col:38 id:5833],syntactic
+SyntaxError: stray character 'z' in expression  [line:272 col:78 id:3357],lexical
+SyntaxError: invalid statement at global scope  [line:108 col:34 id:2756],syntactic
+SyntaxError: invalid statement at global scope  [line:196 col:55 id:3720],syntactic
+SyntaxError: expected ':' after 'if' statement  [line:496 col:58 id:1326],syntactic
+SyntaxError: invalid type annotation  [line:488 col:9 id:9554],syntactic
+SyntaxError: duplicate argument 'config' in function definition  [line:294 col:69 id:7288],syntactic
+ImportError: cannot import name 'load' from 'pandas'  [line:300 col:39 id:8891],lexical
+ImportError: cannot import name 'analyze' from 'numpy'  [line:263 col:3 id:6883],lexical
+SyntaxError: unexpected EOF while parsing  [line:389 col:11 id:2657],syntactic
+SyntaxError: duplicate argument 'flag' in function definition  [line:484 col:34 id:2887],syntactic
+SyntaxError: invalid character in identifier  [line:55 col:64 id:7371],lexical
+SyntaxError: invalid encoding or BOM in source file  [line:373 col:3 id:1099],lexical
+RuntimeError: failed to acquire lock for thread  [line:453 col:65 id:6942],semantic
+ImportError: cannot import name 'fit' from 'http'  [line:464 col:32 id:2654],lexical
+SyntaxError: invalid target for augmented assignment  [line:21 col:21 id:9213],syntactic
+SyntaxError: invalid encoding or BOM in source file  [line:410 col:14 id:5839],lexical
+SyntaxError: unmatched ')' at line 61  [line:82 col:39 id:6429],syntactic
+TabError: inconsistent use of tabs and spaces in indentation  [line:13 col:43 id:3137],lexical
+SyntaxError: illegal expression for augmented assignment  [line:413 col:14 id:1174],syntactic
+AttributeError: module 'cv2' has no attribute 'transform'  [line:307 col:29 id:3013],lexical
+SyntaxError: missing parentheses in call to 'print'  [line:320 col:36 id:3326],syntactic
+SyntaxError: 'return' outside function  [line:266 col:43 id:7096],syntactic
+SyntaxError: invalid character in f-string  [line:473 col:50 id:5428],syntactic
+RecursionError: infinite recursion detected in function 'write'  [line:41 col:33 id:5878],semantic
+ImportError: cannot import name 'load' from 'random'  [line:380 col:22 id:1911],lexical
+UnicodeError: unicodeescape codec can't decode bytes  [line:139 col:73 id:8351],lexical
+SyntaxError: invalid decimal literal near '-'  [line:416 col:29 id:9647],lexical
+SyntaxError: invalid statement at global scope  [line:417 col:51 id:2649],syntactic
+FileNotFoundError: [Errno 2] No such file or directory: ''missing.txt''  [line:334 col:10 id:5032],semantic
+ImportError: cannot find module 'sklearn' in sys.path  [line:83 col:33 id:6235],semantic
+SyntaxError: invalid use of keyword 'or'  [line:243 col:80 id:6756],syntactic
+TypeError: can't multiply sequence by non-int of type 'dict'  [line:196 col:54 id:2502],semantic
+SyntaxError: invalid use of keyword '**'  [line:328 col:3 id:3210],syntactic
+SyntaxError: invalid decimal literal near '::'  [line:88 col:51 id:8301],lexical
+ImportError: cannot import name 'analyze' from 'datetime'  [line:249 col:27 id:2299],lexical
+NameError: name 'error' is not defined  [line:200 col:10 id:8172],lexical
+UnicodeError: unicodeescape codec can't decode bytes  [line:383 col:53 id:1022],lexical
+UnicodeEncodeError: 'ascii' codec can't encode character  [line:259 col:49 id:2497],lexical
+SyntaxError: expected ':' after 'if' statement  [line:14 col:13 id:1919],syntactic
+SyntaxError: invalid type annotation  [line:472 col:4 id:2842],syntactic
+RuntimeError: generator raised StopIteration  [line:371 col:59 id:1557],semantic
+IndentationError: unexpected unindent at line 76  [line:28 col:24 id:8284],lexical
+SyntaxError: invalid non-printable character U+400  [line:449 col:29 id:1822],syntactic
+SyntaxError: unexpected EOF while parsing  [line:349 col:63 id:3885],syntactic
+SyntaxError: 'return' outside function  [line:439 col:38 id:1524],syntactic
+ImportError: cannot import 'predict' from 'math'  [line:185 col:3 id:2082],lexical
+AttributeError: module 'scipy' has no attribute 'calculate'  [line:380 col:21 id:9409],lexical
+RuntimeError: generator raised StopIteration  [line:403 col:66 id:3245],semantic
+NameError: name 'error' is not defined  [line:86 col:26 id:9922],lexical
+ImportError: cannot import 'train' from 'pandas'  [line:110 col:44 id:5356],lexical
+ImportError: cannot import name 'get' from 'pandas'  [line:76 col:54 id:1659],lexical
+SyntaxError: invalid use of keyword '**'  [line:239 col:30 id:8109],syntactic
+"TypeError: sequence item 2: expected str instance, found int  [line:361 col:42 id:1603]",semantic
+"TypeError: sequence item 5: expected str instance, found int  [line:137 col:55 id:6493]",semantic
+ValueError: math domain error  [line:215 col:9 id:3797],semantic
+RuntimeError: failed to acquire lock for thread  [line:263 col:57 id:2945],semantic
+ValueError: math domain error  [line:316 col:6 id:4779],semantic
+SyntaxError: invalid decimal literal near '->'  [line:423 col:27 id:3395],lexical
+SyntaxError: unexpected token '**'  [line:88 col:51 id:4896],syntactic
+RuntimeError: failed to acquire lock for thread  [line:454 col:75 id:2714],semantic
+NameError: free variable 'flag' referenced before assignment  [line:33 col:16 id:1243],semantic
+ModuleNotFoundError: No module named 're'  [line:387 col:75 id:4155],lexical
+SyntaxError: cannot assign to literal  [line:159 col:3 id:5701],syntactic
+SyntaxError: invalid non-printable character U+400  [line:365 col:43 id:2008],syntactic
+SyntaxError: invalid syntax near ';'  [line:12 col:58 id:9617],syntactic
+ImportError: cannot find module 'math' in sys.path  [line:430 col:48 id:6446],semantic
+SyntaxError: unterminated triple-quoted string literal  [line:255 col:67 id:7342],syntactic
+SyntaxError: stray character 'q' in expression  [line:109 col:64 id:7507],lexical
+TypeError: unhashable type: 'DataFrame'  [line:155 col:26 id:6016],semantic
+SyntaxError: invalid non-printable character U+345  [line:493 col:66 id:7374],syntactic
+ValueError: could not convert string to float: '3071c'  [line:418 col:74 id:7598],semantic
+ImportError: cannot import 'fit' from 'tensorflow'  [line:214 col:40 id:4606],lexical
+RuntimeError: failed to acquire lock for thread  [line:245 col:41 id:7177],semantic
+KeyError: 'file'  [line:378 col:44 id:1782],semantic
+SyntaxError: invalid syntax near '=='  [line:377 col:69 id:6303],syntactic
+SyntaxError: illegal expression for augmented assignment  [line:13 col:71 id:7715],syntactic
+SyntaxError: invalid syntax near '::'  [line:289 col:39 id:8732],syntactic
+SyntaxError: 'break' outside loop  [line:496 col:10 id:6973],syntactic
+SyntaxError: invalid use of keyword '=='  [line:35 col:61 id:1636],syntactic
+SyntaxError: invalid target for augmented assignment  [line:146 col:41 id:2783],syntactic
+SyntaxError: invalid use of keyword '%'  [line:173 col:17 id:2494],syntactic
+SyntaxError: stray character 'z' in expression  [line:262 col:38 id:9247],lexical
+ValueError: invalid literal for int() with base 10: '8064c'  [line:139 col:57 id:5322],semantic
+SyntaxError: unexpected EOF while parsing  [line:86 col:80 id:8898],syntactic
+AttributeError: 'Series' object has no attribute 'model'  [line:46 col:35 id:6032],semantic
+ValueError: invalid literal for int() with base 10: '4998a'  [line:186 col:58 id:5535],semantic
+ValueError: math domain error  [line:99 col:78 id:8570],semantic
+SyntaxError: unterminated string literal at line 156  [line:320 col:36 id:4846],lexical
+TypeError: missing 1 required positional argument: 'path'  [line:393 col:24 id:7302],semantic
+SyntaxError: unexpected token '->'  [line:334 col:72 id:9555],syntactic
+MemoryError: cannot allocate memory  [line:285 col:73 id:3759],semantic
+ModuleNotFoundError: No module named 'pandas'  [line:271 col:42 id:8109],lexical
+SyntaxError: invalid non-printable character U+567  [line:342 col:13 id:3363],syntactic
+SyntaxError: unterminated triple-quoted string literal  [line:408 col:8 id:7348],syntactic
+SyntaxError: missing parentheses in call to 'print'  [line:302 col:26 id:8072],syntactic
+TypeError: unsupported operand type(s) for +: 'int' and 'str'  [line:402 col:62 id:9104],semantic
+TypeError: 'NoneType' object is not callable  [line:246 col:16 id:5577],lexical
+SyntaxError: cannot assign to literal  [line:302 col:46 id:3367],syntactic
+SyntaxError: cannot assign to literal  [line:487 col:51 id:5691],syntactic
+IndentationError: unexpected indent  [line:450 col:5 id:8104],lexical
+SyntaxError: invalid escape sequence '\y'  [line:266 col:17 id:8290],lexical
+RecursionError: maximum recursion depth exceeded  [line:305 col:47 id:6282],semantic
+SyntaxError: 'return' outside function  [line:62 col:7 id:6110],syntactic
+SyntaxError: unknown token before '=='  [line:189 col:50 id:4493],lexical
+SyntaxError: cannot mix tabs and spaces  [line:365 col:26 id:7681],syntactic
+"TypeError: sequence item 3: expected str instance, found int  [line:105 col:55 id:8995]",semantic
+MemoryError: cannot allocate memory  [line:285 col:12 id:6223],semantic
+IndexError: tuple index out of range  [line:99 col:12 id:9966],semantic
+KeyError: missing key 'file' during lookup  [line:106 col:79 id:2430],semantic
+FileNotFoundError: [Errno 2] No such file or directory: ''report.xml''  [line:218 col:27 id:4848],semantic
+UnicodeError: unicodeescape codec can't decode bytes  [line:64 col:31 id:7895],lexical
+SyntaxError: expected ':' after 'if' statement  [line:15 col:2 id:1488],syntactic
+NameError: free variable 'flag' referenced before assignment  [line:138 col:51 id:2650],semantic
+SyntaxError: expected ':' after 'if' statement  [line:173 col:16 id:7134],syntactic
+SyntaxError: unmatched ')' at line 172  [line:233 col:39 id:9590],syntactic
+ZeroDivisionError: division by zero  [line:68 col:53 id:2159],semantic
+TypeError: can't compare 'list' and 'int'  [line:312 col:13 id:6163],semantic
+SyntaxError: expected ':' after 'if' statement  [line:21 col:47 id:8000],syntactic
+TypeError: can't compare 'dict' and 'str'  [line:229 col:66 id:3419],semantic
+SyntaxError: expected ':' after 'if' statement  [line:152 col:58 id:1483],syntactic
+IndexError: tuple index out of range  [line:402 col:73 id:3287],semantic
+RuntimeError: generator raised StopIteration  [line:443 col:42 id:5842],semantic
+OSError: [Errno 22] Invalid argument: ''data.csv''  [line:291 col:72 id:3917],semantic
+KeyError: 'config'  [line:185 col:44 id:4828],semantic
+TypeError: 'dict' object is not callable  [line:274 col:48 id:8020],lexical
+KeyError: 'user'  [line:70 col:46 id:4271],semantic
+RuntimeError: dictionary changed size during iteration  [line:491 col:37 id:8146],semantic
+ValueError: math domain error  [line:343 col:13 id:8406],semantic
+RuntimeError: dictionary changed size during iteration  [line:234 col:80 id:3715],semantic
+SyntaxError: invalid syntax near ':'  [line:336 col:61 id:7535],syntactic
+IndentationError: expected an indented block  [line:85 col:18 id:1834],syntactic
+SyntaxError: invalid escape sequence '\z'  [line:246 col:15 id:2579],lexical
+IndentationError: expected an indented block  [line:6 col:11 id:5019],syntactic
+"ValueError: not enough values to unpack (expected 5, got 5)  [line:264 col:9 id:5228]",semantic
+SyntaxError: illegal expression for augmented assignment  [line:391 col:60 id:5909],syntactic
+UnicodeError: unicodeescape codec can't decode bytes  [line:349 col:12 id:9076],lexical
+SyntaxError: cannot mix tabs and spaces  [line:148 col:3 id:5136],syntactic
+AttributeError: module 'cv2' has no attribute 'calculate'  [line:470 col:44 id:4540],lexical
+OverflowError: numerical result out of range  [line:52 col:44 id:5720],semantic
+SyntaxError: missing parentheses in call to 'print'  [line:415 col:15 id:1277],syntactic
+SyntaxError: unmatched ')' at line 119  [line:141 col:72 id:6039],syntactic
+SyntaxError: unterminated string literal at line 52  [line:137 col:14 id:4810],lexical
+SyntaxError: stray character 'y' in expression  [line:363 col:14 id:8069],lexical
+IndentationError: unexpected indent  [line:62 col:51 id:7073],lexical
+OverflowError: numerical result out of range  [line:24 col:12 id:1662],semantic
+ZeroDivisionError: division by zero  [line:71 col:25 id:4213],semantic
+SyntaxError: unexpected EOF while parsing  [line:360 col:16 id:8268],syntactic
+IndentationError: unexpected indent  [line:93 col:5 id:5913],lexical
+AttributeError: 'Series' object has no attribute 'reset'  [line:367 col:72 id:8988],semantic
+SyntaxError: stray character 'z' in expression  [line:201 col:53 id:9814],lexical
+SyntaxError: 'break' outside loop  [line:68 col:16 id:5430],syntactic
+SyntaxError: invalid decimal literal near '/'  [line:265 col:48 id:1552],lexical
+FileNotFoundError: [Errno 2] No such file or directory: ''data_backup.pkl''  [line:425 col:29 id:3837],semantic
+TabError: inconsistent use of tabs and spaces in indentation  [line:475 col:80 id:8721],lexical
+SyntaxError: unterminated triple-quoted string literal  [line:229 col:71 id:3126],syntactic
+SyntaxError: expected ':' after 'if' statement  [line:163 col:51 id:1402],syntactic
+SyntaxError: invalid decimal literal near '=='  [line:90 col:24 id:9509],lexical
+FileNotFoundError: [Errno 2] No such file or directory: ''config.yaml''  [line:283 col:17 id:9480],semantic
+ModuleNotFoundError: No module named 'numpy'  [line:37 col:40 id:3103],lexical
+ZeroDivisionError: division by zero  [line:414 col:73 id:6986],semantic
+SyntaxError: unterminated string literal at line 88  [line:83 col:39 id:6856],lexical
+SyntaxError: unexpected indent at line 131  [line:4 col:63 id:8637],syntactic
+FileNotFoundError: [Errno 2] No such file or directory: ''missing.txt''  [line:255 col:11 id:5602],semantic
+ModuleNotFoundError: No module named 'random'  [line:444 col:31 id:3535],lexical
+UnicodeError: unicodeescape codec can't decode bytes  [line:118 col:51 id:9777],lexical
+SyntaxError: illegal expression for augmented assignment  [line:499 col:20 id:2467],syntactic
+SyntaxError: invalid escape sequence '\q'  [line:233 col:26 id:2297],lexical
+ValueError: math domain error  [line:320 col:40 id:9560],semantic
+SyntaxError: unknown token before '+'  [line:272 col:48 id:5709],lexical
+SyntaxError: unexpected indent at line 188  [line:23 col:50 id:3997],syntactic
+UnicodeError: unicodeescape codec can't decode bytes  [line:125 col:67 id:1837],lexical
+SyntaxError: invalid syntax near '*'  [line:23 col:10 id:3264],lexical
+SyntaxError: expected ':' after 'if' statement  [line:450 col:15 id:9393],syntactic
+SyntaxError: invalid encoding or BOM in source file  [line:428 col:16 id:9644],lexical
+SyntaxError: unterminated triple-quoted string literal  [line:46 col:20 id:1578],syntactic
+IndexError: tuple index out of range  [line:102 col:15 id:2057],semantic
+"SyntaxError: unexpected token ','  [line:275 col:14 id:5735]",syntactic
+SyntaxError: invalid syntax near '=='  [line:137 col:62 id:7961],lexical
+SyntaxError: expected ':' after 'if' statement  [line:480 col:10 id:6221],syntactic
+IndexError: tuple index out of range  [line:382 col:7 id:1254],semantic
+IndexError: tuple index out of range  [line:476 col:39 id:1945],semantic
+SyntaxError: expected ':' after 'if' statement  [line:451 col:21 id:1905],syntactic
+SyntaxError: duplicate argument 'index' in function definition  [line:415 col:73 id:5526],syntactic
+ImportError: cannot import name 'get' from 'scipy'  [line:452 col:1 id:4713],semantic
+SyntaxError: invalid escape sequence '\x'  [line:233 col:33 id:5579],lexical
+OverflowError: numerical result out of range  [line:423 col:54 id:2468],semantic
+SyntaxError: unterminated triple-quoted string literal  [line:70 col:29 id:2018],syntactic
+RuntimeError: dictionary changed size during iteration  [line:169 col:53 id:6962],semantic
+ImportError: cannot import 'fetch' from 'torch'  [line:21 col:43 id:4602],lexical
+SyntaxError: invalid decimal literal near '->'  [line:122 col:8 id:3324],lexical
+ImportError: cannot import name 'fetch' from 're'  [line:495 col:6 id:6109],lexical
+RuntimeError: generator raised StopIteration  [line:96 col:7 id:9085],semantic
+RuntimeError: dictionary changed size during iteration  [line:323 col:17 id:3689],semantic
+SyntaxError: invalid statement at global scope  [line:252 col:62 id:9459],syntactic
+SyntaxError: cannot mix tabs and spaces  [line:395 col:73 id:8066],syntactic
+ImportError: cannot import name 'connect' from 'cv2'  [line:462 col:77 id:6379],semantic
+SyntaxError: invalid escape sequence '\y'  [line:259 col:68 id:3438],lexical
+SyntaxError: invalid character in identifier  [line:136 col:25 id:9336],lexical
+SyntaxError: unknown token before '/'  [line:389 col:31 id:2956],lexical
+"TypeError: sequence item 2: expected str instance, found int  [line:404 col:53 id:5066]",semantic
+ImportError: cannot import name 'fetch' from 'pandas'  [line:42 col:51 id:2992],lexical
+KeyError: 'token' not found in mapping  [line:60 col:54 id:3703],lexical
+SyntaxError: invalid statement at global scope  [line:128 col:53 id:2693],syntactic
+SyntaxError: invalid character in f-string  [line:228 col:22 id:8984],syntactic
+ZeroDivisionError: division by zero  [line:458 col:31 id:6093],semantic
+SyntaxError: invalid target for augmented assignment  [line:305 col:1 id:6770],syntactic
+ValueError: math domain error  [line:448 col:40 id:9163],semantic
+SyntaxError: unexpected EOF while parsing  [line:164 col:73 id:4762],syntactic
+SyntaxError: stray character 'x' in expression  [line:94 col:11 id:8783],lexical
+SyntaxError: missing parentheses in call to 'print'  [line:277 col:30 id:2109],syntactic
+TypeError: can't compare 'str' and 'str'  [line:270 col:36 id:3492],semantic
+ZeroDivisionError: division by zero  [line:82 col:67 id:8987],semantic
+KeyError: 'token' not found in mapping  [line:410 col:10 id:1852],lexical
+SyntaxError: stray character 'q' in expression  [line:218 col:80 id:7375],lexical
+UnicodeEncodeError: 'ascii' codec can't encode character  [line:322 col:56 id:7983],lexical
+RecursionError: maximum recursion depth exceeded  [line:421 col:28 id:1895],semantic
+AttributeError: 'dict' object has no attribute 'reset'  [line:347 col:47 id:2466],semantic
+OSError: [Errno 22] Invalid argument: ''input.json''  [line:328 col:69 id:5575],semantic
+SyntaxError: cannot mix tabs and spaces  [line:35 col:16 id:4963],syntactic
+SyntaxError: unmatched ')' at line 153  [line:63 col:73 id:3350],syntactic
+"SyntaxError: invalid syntax near ','  [line:301 col:51 id:5007]",syntactic
+SyntaxError: invalid escape sequence '\q'  [line:225 col:23 id:6660],lexical
+SyntaxError: invalid escape sequence '\x'  [line:60 col:80 id:9758],lexical
+NameError: name 'y' is not defined  [line:147 col:32 id:6465],lexical
+UnicodeEncodeError: 'ascii' codec can't encode character  [line:406 col:7 id:4153],lexical
+SyntaxError: unknown token before '//'  [line:320 col:2 id:6047],lexical
+TypeError: can't multiply sequence by non-int of type 'float'  [line:61 col:45 id:9506],semantic
+TabError: inconsistent use of tabs and spaces in indentation  [line:227 col:65 id:2499],lexical
+TypeError: unhashable type: 'Series'  [line:162 col:43 id:8298],semantic
+SyntaxError: invalid encoding or BOM in source file  [line:366 col:60 id:2991],lexical
+SyntaxError: invalid character in f-string  [line:499 col:51 id:4066],syntactic
+TypeError: unsupported operand type(s) for +: 'int' and 'str'  [line:255 col:1 id:6267],semantic
+SyntaxError: unknown token before 'or'  [line:434 col:17 id:7045],lexical
+TypeError: 'dict' object is not callable  [line:63 col:59 id:3142],lexical
+SyntaxError: cannot mix tabs and spaces  [line:51 col:79 id:6487],syntactic
+ValueError: invalid literal for int() with base 10: '3533b'  [line:237 col:15 id:6108],semantic
+IndentationError: expected an indented block  [line:335 col:4 id:9318],syntactic
+SyntaxError: invalid syntax near '::'  [line:207 col:10 id:9932],lexical
+SyntaxError: invalid escape sequence '\x'  [line:335 col:56 id:8526],lexical
+SyntaxError: invalid syntax near '/'  [line:205 col:61 id:1107],syntactic
+ImportError: cannot import name 'execute' from 'math'  [line:112 col:27 id:2365],semantic
+IndexError: list index out of range  [line:205 col:10 id:8849],semantic
+SyntaxError: invalid statement at global scope  [line:282 col:59 id:5585],syntactic
+ModuleNotFoundError: No module named 'torch'  [line:68 col:27 id:5264],lexical
+SyntaxError: unterminated string literal at line 2  [line:281 col:38 id:7811],lexical
+ModuleNotFoundError: No module named 'sklearn'  [line:73 col:48 id:9467],lexical
+SyntaxError: unmatched ')' at line 120  [line:330 col:43 id:9070],syntactic
+KeyError: 'id' not found in mapping  [line:407 col:66 id:2003],lexical
+SyntaxError: unexpected token '.'  [line:7 col:60 id:2984],syntactic
+SyntaxError: EOL while scanning string literal  [line:259 col:30 id:8096],lexical
+AttributeError: module 'os' has no attribute 'reset'  [line:109 col:36 id:4389],lexical
+IndentationError: expected an indented block  [line:336 col:61 id:8575],syntactic
+UnicodeEncodeError: 'ascii' codec can't encode character  [line:64 col:68 id:8409],lexical
+SyntaxError: unterminated string literal at line 37  [line:379 col:66 id:2622],lexical
+ValueError: math domain error  [line:102 col:44 id:2781],semantic
+UnicodeEncodeError: 'ascii' codec can't encode character  [line:119 col:9 id:8892],lexical
+TypeError: unhashable type: 'NoneType'  [line:479 col:49 id:1072],semantic
+RecursionError: maximum recursion depth exceeded  [line:484 col:2 id:9467],semantic
+ValueError: math domain error  [line:493 col:25 id:7993],semantic
+SyntaxError: invalid syntax near '%'  [line:499 col:17 id:6803],lexical
+SyntaxError: EOL while scanning string literal  [line:416 col:74 id:1054],lexical
+TabError: inconsistent use of tabs and spaces in indentation  [line:471 col:33 id:4839],lexical
+SyntaxError: unexpected EOF while parsing  [line:497 col:79 id:2604],syntactic
+NameError: name 'result' is not defined  [line:295 col:13 id:3065],lexical
+TabError: inconsistent use of tabs and spaces in indentation  [line:286 col:50 id:5415],lexical
+SyntaxError: invalid syntax near ';'  [line:232 col:54 id:9463],syntactic
+OSError: [Errno 22] Invalid argument: ''data.csv''  [line:312 col:63 id:5510],semantic
+SyntaxError: invalid use of keyword 'and'  [line:174 col:17 id:5202],syntactic
+SyntaxError: invalid character in f-string  [line:295 col:54 id:6863],syntactic
+SyntaxError: missing parentheses in call to 'print'  [line:492 col:17 id:4004],syntactic
+SyntaxError: unexpected EOF while parsing  [line:144 col:48 id:9881],syntactic
+SyntaxError: cannot mix tabs and spaces  [line:271 col:73 id:3542],syntactic
+KeyError: 'session' not found in mapping  [line:385 col:35 id:8596],lexical
+SyntaxError: invalid non-printable character U+201  [line:384 col:62 id:7409],syntactic
+RuntimeError: failed to acquire lock for thread  [line:278 col:47 id:4891],semantic
+SyntaxError: invalid decimal literal near '-'  [line:285 col:9 id:7334],lexical
+SyntaxError: invalid encoding or BOM in source file  [line:75 col:58 id:6641],lexical
+ModuleNotFoundError: No module named 'json'  [line:462 col:77 id:2397],lexical
+AttributeError: module 'tensorflow' has no attribute 'apply'  [line:216 col:77 id:8989],lexical
+SyntaxError: invalid type annotation  [line:397 col:29 id:4439],syntactic
+AttributeError: module 'cv2' has no attribute 'execute'  [line:258 col:68 id:3038],lexical
+SyntaxError: cannot assign to literal  [line:270 col:80 id:6014],syntactic
+ValueError: invalid literal for int() with base 10: '1944c'  [line:381 col:48 id:5991],semantic
+SyntaxError: invalid encoding or BOM in source file  [line:281 col:17 id:6377],lexical
+"SyntaxError: unknown token before ','  [line:98 col:54 id:8555]",lexical
+ImportError: cannot import name 'predict' from 'numpy'  [line:359 col:31 id:4859],lexical
+SyntaxError: invalid statement at global scope  [line:296 col:37 id:3695],syntactic
+ImportError: cannot import 'run' from 'random'  [line:222 col:46 id:3113],lexical
+SyntaxError: invalid statement at global scope  [line:377 col:58 id:2418],syntactic
+NameError: name 'temp' is not defined  [line:250 col:62 id:9105],lexical
+SyntaxError: invalid target for augmented assignment  [line:475 col:68 id:3438],syntactic
+IndexError: list index out of range  [line:106 col:42 id:6395],semantic
+KeyError: 'token' not found in mapping  [line:234 col:16 id:9102],lexical
+NameError: name 'user' is not defined  [line:318 col:74 id:1523],lexical
+ImportError: cannot import name 'get' from 'sklearn'  [line:390 col:20 id:6541],lexical
+SyntaxError: expected ':' after 'if' statement  [line:377 col:12 id:3496],syntactic
+ImportError: cannot import name 'process' from 'datetime'  [line:17 col:46 id:3149],lexical
+RuntimeError: dictionary changed size during iteration  [line:404 col:19 id:8788],semantic
+"AssertionError: expected 4, got 5  [line:500 col:46 id:6799]",semantic
+"ValueError: not enough values to unpack (expected 5, got 1)  [line:217 col:51 id:5330]",semantic
+TypeError: can't multiply sequence by non-int of type 'int'  [line:230 col:28 id:6731],semantic
+SyntaxError: invalid use of keyword '/'  [line:467 col:25 id:1986],syntactic
+SyntaxError: invalid encoding or BOM in source file  [line:450 col:34 id:9118],lexical
+OSError: [Errno 22] Invalid argument: ''output.log''  [line:165 col:1 id:8752],semantic
+SyntaxError: invalid decimal literal near '='  [line:465 col:57 id:5128],lexical
+ImportError: cannot import 'write' from 'os'  [line:451 col:12 id:5111],lexical
+SyntaxError: unmatched ')' at line 175  [line:348 col:63 id:3130],syntactic
+IndexError: tuple index out of range  [line:139 col:50 id:3178],semantic
+RecursionError: infinite recursion detected in function 'get'  [line:51 col:12 id:9995],semantic
+SyntaxError: invalid statement at global scope  [line:401 col:14 id:1956],syntactic
+SyntaxError: invalid escape sequence '\z'  [line:343 col:66 id:9109],lexical
+SyntaxError: duplicate argument 'data' in function definition  [line:431 col:7 id:5633],syntactic
+SyntaxError: unexpected EOF while parsing  [line:423 col:43 id:6320],syntactic
+SyntaxError: unterminated triple-quoted string literal  [line:38 col:6 id:5507],syntactic
+SyntaxError: unexpected token '%'  [line:268 col:32 id:9647],syntactic
+SyntaxError: unterminated string literal at line 197  [line:329 col:38 id:8846],lexical
+SyntaxError: unterminated string literal at line 127  [line:498 col:47 id:7356],lexical
+TypeError: 'dict' object is not callable  [line:233 col:62 id:1333],lexical
+SyntaxError: expected ':' after 'if' statement  [line:483 col:28 id:4691],syntactic
+IndexError: list index out of range  [line:277 col:51 id:1837],semantic
+ModuleNotFoundError: No module named 'pandas'  [line:209 col:33 id:9927],lexical
+ModuleNotFoundError: No module named 'scipy'  [line:256 col:12 id:2610],lexical
+IndentationError: unexpected indent  [line:370 col:37 id:9435],lexical
+SyntaxError: stray character 'x' in expression  [line:47 col:75 id:7067],lexical
+ValueError: invalid literal for int() with base 10: '7005b'  [line:201 col:74 id:8433],semantic
+IndentationError: expected an indented block  [line:443 col:38 id:1730],syntactic
+SyntaxError: invalid character in f-string  [line:203 col:77 id:6397],syntactic
+SyntaxError: invalid target for augmented assignment  [line:67 col:26 id:5584],syntactic
+SyntaxError: cannot mix tabs and spaces  [line:181 col:45 id:7682],syntactic
+ImportError: cannot import name 'train' from 'json'  [line:439 col:15 id:5844],lexical
+SyntaxError: unknown token before 'and'  [line:395 col:16 id:8295],lexical
+TypeError: missing 1 required positional argument: 'data'  [line:309 col:77 id:3142],semantic
+SyntaxError: unexpected indent at line 162  [line:42 col:10 id:2617],syntactic
+OverflowError: numerical result out of range  [line:148 col:16 id:7184],semantic
+ImportError: cannot import name 'read' from 'sklearn'  [line:227 col:64 id:7196],lexical
+KeyError: 'user'  [line:57 col:76 id:3359],semantic
+OverflowError: numerical result out of range  [line:421 col:66 id:5173],semantic
+SyntaxError: invalid character in identifier  [line:161 col:30 id:3202],lexical
+SyntaxError: illegal expression for augmented assignment  [line:258 col:31 id:9385],syntactic
+"ValueError: not enough values to unpack (expected 5, got 5)  [line:198 col:67 id:9240]",semantic
+SyntaxError: invalid non-printable character U+201  [line:124 col:60 id:1136],syntactic
+RuntimeError: generator raised StopIteration  [line:222 col:64 id:1187],semantic
+ModuleNotFoundError: No module named 'os'  [line:69 col:5 id:9067],lexical
+SyntaxError: invalid escape sequence '\x'  [line:275 col:66 id:7566],lexical
+SyntaxError: cannot assign to literal  [line:407 col:69 id:6076],syntactic
+IndentationError: expected an indented block  [line:164 col:3 id:2551],syntactic
+KeyError: 'config'  [line:341 col:5 id:1236],semantic
+SyntaxError: EOL while scanning string literal  [line:73 col:69 id:1845],lexical
+SyntaxError: invalid encoding or BOM in source file  [line:427 col:22 id:4154],lexical
+SyntaxError: 'break' outside loop  [line:202 col:35 id:7786],syntactic
+IndexError: tuple index out of range  [line:364 col:24 id:7057],semantic
+SyntaxError: invalid escape sequence '\z'  [line:28 col:53 id:3038],lexical
+TypeError: unsupported operand type(s) for +: 'int' and 'str'  [line:493 col:30 id:1773],semantic
+AttributeError: 'DataFrame' object has no attribute 'length'  [line:81 col:67 id:7343],semantic
+KeyError: missing key 'session' during lookup  [line:165 col:29 id:2842],semantic
+SyntaxError: invalid syntax near '::'  [line:294 col:41 id:5568],lexical
+SyntaxError: invalid use of keyword '%'  [line:249 col:61 id:6787],syntactic
+IndexError: tuple index out of range  [line:44 col:3 id:9565],semantic
+SyntaxError: invalid character in identifier  [line:116 col:33 id:7847],lexical
+SyntaxError: unterminated triple-quoted string literal  [line:323 col:4 id:8339],syntactic
+RuntimeError: dictionary changed size during iteration  [line:266 col:20 id:5304],semantic
+SyntaxError: cannot assign to literal  [line:2 col:70 id:4475],syntactic
+AttributeError: module 'pandas' has no attribute 'model'  [line:452 col:21 id:1271],lexical
+SyntaxError: invalid syntax near 'or'  [line:279 col:68 id:7668],lexical
+FileNotFoundError: [Errno 2] No such file or directory: ''config.yaml''  [line:331 col:52 id:3331],semantic
+TypeError: 'Series' object is not callable  [line:146 col:14 id:6308],lexical
+SyntaxError: unexpected indent at line 160  [line:37 col:16 id:8964],syntactic
+SyntaxError: missing parentheses in call to 'print'  [line:154 col:62 id:8948],syntactic
+IndentationError: expected an indented block  [line:181 col:25 id:8985],syntactic
+AttributeError: 'list' object has no attribute 'plot'  [line:420 col:54 id:3532],semantic
+SyntaxError: invalid decimal literal near '/'  [line:167 col:24 id:7084],lexical
+ImportError: cannot import name 'read' from 'sys'  [line:370 col:11 id:7962],lexical
+SyntaxError: unterminated triple-quoted string literal  [line:256 col:39 id:6414],syntactic
+AttributeError: 'NoneType' object has no attribute 'model'  [line:261 col:43 id:1632],semantic
+OSError: [Errno 22] Invalid argument: ''data_backup.pkl''  [line:384 col:33 id:5680],semantic
+SyntaxError: missing parentheses in call to 'print'  [line:452 col:26 id:8055],syntactic
+SyntaxError: invalid statement at global scope  [line:279 col:53 id:6105],syntactic
+SyntaxError: 'break' outside loop  [line:459 col:78 id:9985],syntactic
+SyntaxError: invalid encoding or BOM in source file  [line:223 col:12 id:3214],lexical
+SyntaxError: missing parentheses in call to 'print'  [line:410 col:68 id:6382],syntactic
+ImportError: cannot import name 'process' from 'random'  [line:41 col:68 id:8864],lexical
+RecursionError: infinite recursion detected in function 'fetch'  [line:440 col:76 id:2603],semantic
+ModuleNotFoundError: No module named 're'  [line:121 col:8 id:9829],lexical
+ImportError: cannot import name 'process' from 'matplotlib'  [line:124 col:60 id:1108],lexical
+SyntaxError: invalid target for augmented assignment  [line:217 col:50 id:2092],syntactic
+SyntaxError: 'return' outside function  [line:495 col:17 id:2842],syntactic
+ImportError: cannot import name 'read' from 'sys'  [line:372 col:71 id:9937],lexical
+SyntaxError: unknown token before 'or'  [line:306 col:27 id:1130],lexical
+SyntaxError: expected ':' after 'if' statement  [line:95 col:45 id:6030],syntactic
+IndexError: tuple index out of range  [line:201 col:52 id:4685],semantic
+KeyError: 'user' not found in mapping  [line:38 col:9 id:1431],lexical
+ValueError: could not convert string to float: '1060b'  [line:250 col:71 id:5893],semantic
+ValueError: math domain error  [line:326 col:19 id:4311],semantic
+ImportError: cannot import name 'get' from 're'  [line:452 col:77 id:9923],semantic
+SyntaxError: invalid escape sequence '\q'  [line:218 col:63 id:2816],lexical
+SyntaxError: invalid syntax near '->'  [line:334 col:52 id:6456],syntactic
+ModuleNotFoundError: No module named 'matplotlib'  [line:40 col:4 id:2933],lexical
+SyntaxError: unexpected token '**'  [line:98 col:4 id:4381],syntactic
+SyntaxError: unexpected token '%'  [line:238 col:18 id:8584],syntactic
+ImportError: cannot import 'write' from 'scipy'  [line:407 col:11 id:6752],lexical
+AttributeError: module 'torch' has no attribute 'shape'  [line:106 col:80 id:8671],lexical
+AttributeError: module 'random' has no attribute 'model'  [line:362 col:61 id:7440],lexical
+SyntaxError: unexpected token '::'  [line:491 col:61 id:5564],syntactic
+ValueError: invalid literal for int() with base 10: '4815c'  [line:252 col:23 id:4401],semantic
+SyntaxError: invalid escape sequence '\x'  [line:68 col:42 id:3368],lexical
+RuntimeError: failed to acquire lock for thread  [line:99 col:68 id:2025],semantic
+FileNotFoundError: [Errno 2] No such file or directory: ''report.xml''  [line:37 col:7 id:1664],semantic
+TypeError: 'Series' object is not callable  [line:427 col:73 id:4557],lexical
+SyntaxError: 'break' outside loop  [line:10 col:67 id:6250],syntactic
+OSError: [Errno 22] Invalid argument: ''output.log''  [line:366 col:23 id:7014],semantic
+SyntaxError: stray character 'z' in expression  [line:301 col:80 id:6835],lexical
+SyntaxError: 'break' outside loop  [line:157 col:32 id:3455],syntactic
+SyntaxError: 'break' outside loop  [line:220 col:3 id:8102],syntactic
+TypeError: unsupported operand type(s) for +: 'int' and 'str'  [line:421 col:43 id:4180],semantic
+SyntaxError: 'break' outside loop  [line:261 col:62 id:6649],syntactic
+SyntaxError: expected ':' after 'if' statement  [line:76 col:61 id:6216],syntactic
+RecursionError: maximum recursion depth exceeded  [line:229 col:10 id:2280],semantic
+IndexError: list index out of range  [line:439 col:54 id:7741],semantic
+SyntaxError: invalid character in f-string  [line:56 col:28 id:4635],syntactic
+SyntaxError: invalid syntax near 'and'  [line:141 col:44 id:8523],syntactic
+TypeError: unsupported operand type(s) for +: 'int' and 'str'  [line:345 col:4 id:2737],semantic
+TypeError: can't multiply sequence by non-int of type 'float'  [line:317 col:67 id:9896],semantic
+TypeError: unsupported operand type(s) for +: 'int' and 'str'  [line:64 col:70 id:4353],semantic
+NameError: free variable 'data' referenced before assignment  [line:497 col:68 id:2529],semantic
+SyntaxError: invalid escape sequence '\x'  [line:319 col:37 id:4618],lexical
+SyntaxError: cannot mix tabs and spaces  [line:69 col:35 id:1650],syntactic
+KeyError: 'token'  [line:244 col:27 id:4775],semantic
+SyntaxError: invalid target for augmented assignment  [line:393 col:26 id:7465],syntactic
+SyntaxError: invalid non-printable character U+201  [line:206 col:23 id:4289],syntactic
+TypeError: 'dict' object is not callable  [line:360 col:62 id:3918],lexical
+NameError: free variable 'x' referenced before assignment  [line:73 col:7 id:5434],semantic
+ImportError: cannot import name 'fetch' from 'scipy'  [line:138 col:78 id:2968],lexical
+SyntaxError: unknown token before '='  [line:97 col:71 id:3216],lexical
+AttributeError: module 'json' has no attribute 'append'  [line:348 col:11 id:9768],lexical
+NameError: free variable 'user' referenced before assignment  [line:147 col:26 id:1699],semantic
+TypeError: can't compare 'dict' and 'tuple'  [line:429 col:10 id:7487],semantic
+ModuleNotFoundError: No module named 'matplotlib'  [line:264 col:56 id:3133],lexical
+IndexError: list index out of range  [line:174 col:53 id:6822],semantic
+TypeError: unsupported operand type(s) for +: 'int' and 'str'  [line:186 col:32 id:2853],semantic
+IndentationError: unexpected indent  [line:372 col:50 id:3448],lexical
+IndexError: list index out of range  [line:253 col:50 id:9826],semantic
+NameError: free variable 'user' referenced before assignment  [line:282 col:18 id:1674],semantic
+SyntaxError: unterminated string literal at line 77  [line:12 col:47 id:5778],lexical
+SyntaxError: invalid use of keyword '//'  [line:354 col:25 id:5971],syntactic
+TypeError: can't multiply sequence by non-int of type 'str'  [line:248 col:44 id:3895],semantic
+SyntaxError: invalid character in identifier  [line:277 col:24 id:7327],lexical
+TabError: inconsistent use of tabs and spaces in indentation  [line:267 col:48 id:4090],lexical
+ValueError: invalid literal for int() with base 10: '3797b'  [line:403 col:74 id:2158],semantic
+SyntaxError: invalid target for augmented assignment  [line:393 col:49 id:5822],syntactic
+IndentationError: unexpected unindent at line 132  [line:16 col:36 id:4862],lexical
+KeyError: missing key 'user' during lookup  [line:46 col:76 id:7872],semantic
+ImportError: cannot import name 'connect' from 'http'  [line:345 col:3 id:7341],lexical
+SyntaxError: unterminated triple-quoted string literal  [line:260 col:24 id:2451],syntactic
+ValueError: math domain error  [line:152 col:61 id:2149],semantic
+RecursionError: maximum recursion depth exceeded  [line:52 col:2 id:2374],semantic
+ImportError: cannot import name 'execute' from 're'  [line:54 col:21 id:5165],lexical
+SyntaxError: invalid statement at global scope  [line:12 col:34 id:8691],syntactic
+SyntaxError: cannot mix tabs and spaces  [line:36 col:17 id:7570],syntactic
+TypeError: 'DataFrame' object is not callable  [line:374 col:2 id:4988],lexical
+ImportError: cannot import name 'predict' from 'sys'  [line:165 col:24 id:8318],lexical
+AttributeError: module 'sys' has no attribute 'apply'  [line:54 col:72 id:3476],lexical
+TypeError: object of type 'NoneType' has no len()  [line:71 col:42 id:2410],semantic
+SyntaxError: unexpected token '=='  [line:491 col:37 id:9814],syntactic
+NameError: free variable 'flag' referenced before assignment  [line:291 col:51 id:2676],semantic
+RuntimeError: failed to acquire lock for thread  [line:353 col:50 id:5614],semantic
+NameError: free variable 'value' referenced before assignment  [line:380 col:74 id:9282],semantic
+KeyError: missing key 'user' during lookup  [line:156 col:33 id:7245],semantic
+SyntaxError: invalid use of keyword '+'  [line:315 col:77 id:2815],syntactic
+UnicodeError: unicodeescape codec can't decode bytes  [line:417 col:39 id:4213],lexical
+OverflowError: numerical result out of range  [line:206 col:46 id:1720],semantic
+RecursionError: infinite recursion detected in function 'fetch'  [line:87 col:60 id:5388],semantic
+FileNotFoundError: [Errno 2] No such file or directory: ''data_backup.pkl''  [line:74 col:32 id:3102],semantic
+RuntimeError: generator raised StopIteration  [line:139 col:6 id:6556],semantic
+TypeError: object of type 'NoneType' has no len()  [line:178 col:76 id:8393],semantic
+SyntaxError: invalid target for augmented assignment  [line:378 col:66 id:8411],syntactic
+TypeError: 'NoneType' object is not callable  [line:122 col:50 id:9485],lexical
+SyntaxError: unterminated string literal at line 112  [line:122 col:44 id:5290],lexical
+SyntaxError: cannot mix tabs and spaces  [line:83 col:43 id:6169],syntactic
+IndentationError: unexpected unindent at line 51  [line:65 col:32 id:4707],lexical
+AttributeError: module 'json' has no attribute 'apply'  [line:158 col:58 id:6362],lexical
+RuntimeError: failed to acquire lock for thread  [line:434 col:56 id:1133],semantic
+SyntaxError: duplicate argument 'array' in function definition  [line:231 col:38 id:8087],syntactic
+SyntaxError: invalid statement at global scope  [line:114 col:25 id:6233],syntactic
+SyntaxError: expected ':' after 'if' statement  [line:155 col:56 id:8137],syntactic
+RuntimeError: generator raised StopIteration  [line:362 col:63 id:3463],semantic

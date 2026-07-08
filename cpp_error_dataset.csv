@@ -1,0 +1,835 @@
+error_message,error_type
+main.cpp:15:8: error: 'x' was not declared in this scope,lexical
+error C2065: 'count' : undeclared identifier,lexical
+/home/user/project.cpp:42:12: error: 'temp' undeclared (first use this function),lexical
+Line 25: Identifier 'func' not found in current scope,lexical
+fatal error: 'result' has not been declared,lexical
+src/core/data.cpp:33:7: error: ‘output’ was not declared in this scope,lexical
+error C2065: 'sum' : undeclared identifier at line 12,lexical
+project/main.cpp:123: error: ‘buffer’ undeclared (first use this function),lexical
+error: ‘ptr’ was not declared in this scope,lexical
+Line 11: undeclared variable 'counter' used,lexical
+fatal error: identifier 'array' not declared,lexical
+compilation terminated: 'size' undeclared at utils.cpp:56,lexical
+[Error] unknown identifier 'item' on line 134,lexical
+error: ‘flag’ was not declared in this scope,lexical
+core/engine.cpp:18:3: error: 'node' undeclared,lexical
+error C2146: syntax error: missing ';' before identifier 'value',lexical
+main.cpp:56:5: error: expected unqualified-id before 'return',lexical
+error C2065: 'loopVar' : undeclared identifier,lexical
+error: invalid suffix on literal; C++11 requires a space between literal and string macro,lexical
+fatal error: 'bits/stdc++.h' not found (non-standard header),lexical
+iostream: No such file or directory,lexical
+fatal error: 'vector' file not found,lexical
+"Line 1: #include expects \filename\"" or <filename>""",lexical
+error C1083: Cannot open include file: 'algorithm': No such file or directory,lexical
+compilation terminated: missing header file 'string',lexical
+fatal error: 'cstdio' file not found,lexical
+preprocessor error: #include directive not recognized,lexical
+error: stray '@' in program,lexical
+main.cpp:5:1: error: stray '#' in program,lexical
+error: missing terminating ' character,lexical
+error: invalid digit '9' in octal constant,lexical
+error: unknown escape sequence '\\z',lexical
+error C2001: newline in constant,lexical
+fatal error: unterminated string or character constant,lexical
+main.cpp:90:10: error: namespace not allowed here,lexical
+error: unterminated comment detected,lexical
+compilation error: stray '\\302' in program,lexical
+"error: missing terminating \ character in include""",lexical
+fatal error: macro name must be an identifier,lexical
+error: stray '\\240' in program,lexical
+utils/math.cpp:45:5: error: expected identifier before numeric constant,lexical
+fatal error: expected unqualified-id before 'return',lexical
+main.cpp:100:3: error: stray '\\200' in program,lexical
+error: non-ASCII character detected in identifier,lexical
+error C2006: '#include' expected filename,lexical
+error: unexpected preprocessing directive '#end',lexical
+error: invalid preprocessing directive '#ifed',lexical
+error: stray '\\377' in source file,lexical
+fatal error: invalid UTF-8 sequence in source file,lexical
+compilation error: unsupported character encoding,lexical
+main.cpp:20:5: error: missing terminating comment '*/',lexical
+error: stray '$' in program,lexical
+error: use of reserved keyword 'class' as identifier,lexical
+main.cpp:18:2: error: unknown type name 'integar',lexical
+error: stray '%' in program,lexical
+fatal error: too many nested includes,lexical
+main.cpp:1:1: error: stray '\\r' in program,lexical
+error: macro parameter missing closing parenthesis,lexical
+fatal error: missing header guard,lexical
+error: unknown preprocessor directive '#undefined',lexical
+main.cpp:11:5: error: illegal character sequence '\\xFF',lexical
+error: missing terminating macro argument list,lexical
+fatal error: invalid token in include directive,lexical
+error: unsupported directive found,lexical
+error: stray '^' in program,lexical
+error: invalid character '‘' in source,lexical
+fatal error: invalid Unicode byte order mark,lexical
+error: 'cout' was not declared (did you forget 'using namespace std;'),lexical
+error: expected unqualified-id before 'return',syntactic
+error C2059: syntax error : 'numeric constant',syntactic
+Line 25: expected declaration before '}' token,syntactic
+compilation error: expected primary-expression before ')' token,syntactic
+[Error] main.cpp (67): expected declaration specifiers,syntactic
+fatal error: expected identifier or '(' before '&' token,syntactic
+main.cpp:89:8: error: expected ')' before '*' token,syntactic
+Error (line 123): expected ';' after member declaration,syntactic
+Line 156: expected class-name before '{' token,syntactic
+"src/main.cpp:189: error: expected constructor, destructor, or type conversion",syntactic
+main.cpp:25:10: error: expected ';' before 'return',syntactic
+error C2143: syntax error : missing '}' before end of file,syntactic
+Line 34: expected ')' before ';' token,syntactic
+[Error] main.cpp (67): expected '{' before 'else',syntactic
+fatal error: missing semicolon at end of statement (line 45),syntactic
+src/main.cpp:123: error: expected '(' after 'if',syntactic
+compilation error: missing closing parenthesis ')' at line 89,syntactic
+Error: expected ';' after expression on line 156,syntactic
+main.cpp:78:5: error: expected '{' before 'for',syntactic
+Line 203: expected ')' after 'for' statement,syntactic
+"error C2059: syntax error : missing ',' between function arguments",syntactic
+[Error] main.cpp (234): expected ';' before 'int',syntactic
+"fatal error: missing closing quote '\' at line 67""",syntactic
+compilation terminated: expected '}' before 'else' at line 134,syntactic
+main.cpp:89:12: error: expected '(' after 'while',syntactic
+Error (line 167): expected ':' after 'case',syntactic
+Line 234: missing semicolon after variable declaration,syntactic
+src/main.cpp:301: error: expected ')' before '{',syntactic
+main.cpp:45:8: error: expected ';' after 'break',syntactic
+[Error] Line 178: missing opening bracket '[',syntactic
+error: expected expression before '::' token,syntactic
+main.cpp:55:3: error: expected primary-expression before 'else',syntactic
+error: missing 'catch' or 'finally' after 'try',syntactic
+main.cpp:200:5: error: expected type-specifier before 'return',syntactic
+error: extra qualification 'Class::' on member 'func',syntactic
+compilation error: case label not within a switch statement,syntactic
+main.cpp:300:12: error: expected declaration before end of input,syntactic
+error: too few arguments to function call,syntactic
+error: expected template argument before '>' token,syntactic
+fatal error: expected '{' at end of namespace,syntactic
+main.cpp:17:10: error: expected ';' before '}' token,syntactic
+error: unexpected token 'private' outside of class,syntactic
+main.cpp:67:12: error: expected '(' before '{',syntactic
+error C2143: syntax error : missing ';' before 'return',syntactic
+fatal error: unexpected end of file,syntactic
+error: invalid syntax near 'else if',syntactic
+error: stray ':' in conditional expression,syntactic
+main.cpp:110:9: error: expected class-key before 'MyClass',syntactic
+compilation terminated: unexpected token 'case',syntactic
+error: expected type before numeric constant,syntactic
+fatal error: expected identifier before '>>' token,syntactic
+error C4430: missing type specifier - int assumed,syntactic
+error: unexpected token '<=' in condition,syntactic
+error: 'break' statement not within loop or switch,syntactic
+error: multiple storage classes in declaration,syntactic
+main.cpp:45:15: error: expected parameter declaration,syntactic
+error: unexpected end of macro invocation,syntactic
+error: 'else' without matching 'if',syntactic
+fatal error: unbalanced braces in code block,syntactic
+error: too many template arguments,syntactic
+error: expected specifier-qualifier-list before '}' token,syntactic
+error: invalid use of keyword 'class',syntactic
+main.cpp:67:3: error: expected expression before '}' token,syntactic
+fatal error: expected '(' before 'delete',syntactic
+error: expected ':' after 'case' label,syntactic
+error: unknown type name 'end',syntactic
+main.cpp:150:8: error: redefinition of parameter 'i',syntactic
+"error: unexpected token ')' before ','",syntactic
+fatal error: invalid argument list in function definition,syntactic
+main.cpp:78:9: error: expected primary-expression before '=',syntactic
+error: 'for' loop missing initializer,syntactic
+fatal error: missing closing brace for class,syntactic
+error: too many closing braces,syntactic
+compilation error: else without previous if,syntactic
+error: invalid declaration of 'int main',syntactic
+error: redeclaration of 'x' with different type,syntactic
+main.cpp:89:5: error: declaration does not declare anything,syntactic
+error: label 'exit' used but not defined,syntactic
+error: parameter name omitted,syntactic
+fatal error: template requires parameter list,syntactic
+error: misplaced template specialization,syntactic
+error: function body missing,syntactic
+error: case label not within switch statement,syntactic
+error: use of unknown type name 'funciton',syntactic
+runtime error: array index out of range,semantic
+error C2440: cannot convert from 'int' to 'string',semantic
+Line 45: function 'calculate' expects 2 arguments but 3 given,semantic
+compilation error: division by zero detected at line 78,semantic
+runtime error: array index 15 out of bounds (size 10),semantic
+main.cpp:89:12: error: null pointer dereference,semantic
+Error: incompatible types in assignment at line 134,semantic
+[Warning] main.cpp (167): function returns void but value expected,semantic
+fatal error: cannot call method on null reference,semantic
+main.cpp:203:8: error: 'int' object has no member named 'length',semantic
+Line 234: cannot convert 'float' to 'bool' in condition,semantic
+error C2440: 'main' function must return int,semantic
+runtime error: array subscript -1 out of range,semantic
+main.cpp:67:5: error: assignment of read-only variable 'CONST_VAL',semantic
+compilation error: pure virtual function call detected,semantic
+runtime error: stack overflow detected in recursive function,semantic
+segmentation fault: memory access violation at address 0x0,semantic
+main.cpp:45:12: error: invalid conversion from 'char*' to 'int',semantic
+Error: cannot delete non-pointer variable at line 89,semantic
+runtime error: double free or corruption detected,semantic
+error: cannot bind non-const lvalue reference to an rvalue,semantic
+fatal error: use of deleted function 'Foo::Foo(const Foo&)',semantic
+error: cannot instantiate abstract class 'Drawable',semantic
+error: invalid operands to binary expression ('int' and 'const char*'),semantic
+runtime error: division by zero detected in function 'divide',semantic
+error: variable 'ptr' used uninitialized,semantic
+warning: unused variable 'temp' [-Wunused-variable],semantic
+main.cpp:15:8: warning: comparison between signed and unsigned integer expressions,semantic
+Line 25: warning: deprecated conversion from string constant to 'char*',semantic
+[Warning] Possible memory leak: pointer 'ptr' not freed,semantic
+compilation warning: unreachable code after return statement,semantic
+main.cpp:45:5: warning: control reaches end of non-void function,semantic
+runtime warning: potential buffer overflow detected,semantic
+error: invalid use of incomplete type 'struct Data',semantic
+fatal error: pure virtual function 'draw()' not overridden,semantic
+runtime error: invalid memory address read,semantic
+error: reference to deleted function 'operator=',semantic
+fatal error: dangling pointer detected after delete,semantic
+runtime error: use after free,semantic
+error: cannot assign to const variable 'PI',semantic
+error: invalid conversion from 'double' to 'char',semantic
+fatal error: ambiguous overload for operator '+',semantic
+error: use of undeclared identifier 'y',semantic
+error: cannot call member function 'void A::func()' without object,semantic
+runtime error: stack overflow,semantic
+fatal error: 'class MyClass' has no member named 'undefinedMethod',semantic
+runtime error: segmentation fault at address 0xdeadbeef,semantic
+error: invalid pointer comparison,semantic
+runtime error: heap-buffer-overflow,semantic
+error: expected class-name before '{' token,semantic
+main.cpp:150:5: error: invalid initialization of non-const reference,semantic
+error: 'foo' is a private member of 'Bar',semantic
+runtime warning: arithmetic overflow detected,semantic
+error: assignment to expression with array type,semantic
+error: type 'std::string' is incomplete,semantic
+fatal error: bad_alloc: memory allocation failed,semantic
+runtime error: unexpected nullptr dereference,semantic
+error: pointer being freed was not allocated,semantic
+fatal error: virtual function call in constructor,semantic
+error: static assertion failed,semantic
+warning: overflow in implicit constant conversion,semantic
+runtime error: unaligned memory access,semantic
+fatal error: mismatched new[]/delete,semantic
+error: passing 'const A' as 'this' argument discards qualifiers,semantic
+error: variable-sized object may not be initialized,semantic
+runtime error: memory leak detected at shutdown,semantic
+error: cannot call constructor directly,semantic
+warning: narrowing conversion from 'double' to 'int',semantic
+fatal error: template instantiation depth exceeds maximum,semantic
+runtime error: thread aborted due to race condition,semantic
+error: conflicting return type specified for 'main',semantic
+error: invalid conversion from 'char' to 'char*',semantic
+error: dynamic_cast from base to derived not allowed,semantic
+error: comparison between pointer and integer,semantic
+error: deleting pointer to incomplete type 'Foo',semantic
+runtime error: invalid iterator dereference,semantic
+error: cannot take address of temporary,semantic
+fatal error: virtual base class not accessible,semantic
+error: function returns address of local variable,semantic
+runtime error: memory corruption detected,semantic
+error: conversion loses integer precision,semantic
+fatal error: multiple inheritance ambiguity detected,semantic
+runtime error: null reference access,semantic
+error: conversion from ‘const char*’ to ‘int’ is invalid,semantic
+error: conflicting declaration of function 'print',semantic
+fatal error: exception not caught,semantic
+runtime error: stack overflow in recursion,semantic
+error: cannot throw object of type 'int',semantic
+error: assignment makes integer from pointer without cast,semantic
+error: overflow in arithmetic operation,semantic
+runtime error: segmentation fault accessing array,semantic
+error: redefinition of class 'MyClass',semantic
+fatal error: constructor cannot return a value,semantic
+error: destructor declared with a return type,semantic
+runtime error: buffer overflow writing memory,semantic
+error: invalid pointer free,semantic
+fatal error: function declared but never defined,semantic
+runtime error: null object reference during method call,semantic
+error: illegal assignment to array,semantic
+error: redeclaration of variable 'x' with different type,semantic
+fatal error: no matching function for call to overloaded operator,semantic
+runtime error: thread synchronization failed,semantic
+error: template specialization invalid,semantic
+runtime error: mutex deadlock detected,semantic
+error: abstract class cannot be instantiated,semantic
+error: expected return type mismatch,semantic
+fatal error: memory leak during object destruction,semantic
+runtime error: invalid thread handle,semantic
+error: invalid conversion from 'long' to 'char',semantic
+runtime error: illegal access to freed pointer,semantic
+fatal error: circular reference between smart pointers,semantic
+error: type mismatch in template parameter deduction,semantic
+fatal error: invalid constructor initialization list,semantic
+error: cannot bind non-const lvalue reference to temporary object,semantic
+runtime error: heap corruption detected after malloc,semantic
+error: ambiguous conversion from 'float' to 'int',semantic
+fatal error: abstract class cannot be instantiated directly,semantic
+error: invalid dynamic_cast to unrelated type,semantic
+error: const variable must be initialized,semantic
+fatal error: infinite recursion in template instantiation,semantic
+runtime error: invalid free() called on non-heap object,semantic
+error: array subscript is not an integer,semantic
+error: taking address of temporary array element,semantic
+fatal error: destructor cannot be pure virtual,semantic
+runtime error: corrupted memory block detected,semantic
+error: function ‘main’ must return ‘int’,semantic
+error: deleting object twice,semantic
+fatal error: virtual destructor required for polymorphic base class,semantic
+runtime error: race condition in multithreaded code,semantic
+error: uninitialized reference variable used,semantic
+error: invalid pointer arithmetic,semantic
+fatal error: 'this' pointer used in static context,semantic
+runtime error: null pointer dereference during copy,semantic
+error: type of ‘count’ changes at runtime,semantic
+error: invalid reinterpret_cast from ‘int*’ to ‘char’,semantic
+fatal error: out of range value for enum conversion,semantic
+error: attempt to assign read-only reference,semantic
+runtime error: accessing freed stack memory,semantic
+error: no viable overloaded operator '=',semantic
+error: conversion from pointer to integer without cast,semantic
+fatal error: mismatch in template parameter count,semantic
+runtime error: invalid write to protected memory,semantic
+error: comparison between incompatible pointer types,semantic
+error: expression must be a modifiable lvalue,semantic
+fatal error: calling private constructor of class,semantic
+runtime error: memory alignment fault,semantic
+error: no match for ‘operator+=’ (operand types ‘A’ and ‘B’),semantic
+fatal error: 'delete' applied to non-pointer type,semantic
+error: invalid argument type for function ‘sqrt’,semantic
+error: invalid use of template-name without arguments,semantic
+runtime error: concurrent modification of container,semantic
+fatal error: non-static data member used in static context,semantic
+error: division by zero in constexpr expression,semantic
+error: exception specification differs from base class,semantic
+runtime error: invalid array access beyond limit,semantic
+fatal error: invalid destructor call on incomplete object,semantic
+error: class ‘A’ does not have member ‘print’,semantic
+error: pointer arithmetic on void pointer,semantic
+runtime error: misaligned memory access detected,semantic
+error: cannot initialize a parameter of type 'int*' with an rvalue of type 'float*',semantic
+fatal error: incompatible exception types in catch clause,semantic
+error: non-const reference bound to temporary value,semantic
+error: conversion from ‘long double’ to ‘int’ loses precision,semantic
+runtime error: object deleted while still referenced,semantic
+fatal error: function cannot return array type,semantic
+error: invalid comparison between signed and unsigned,semantic
+error: incompatible operand types for conditional operator,semantic
+runtime error: unhandled exception in thread,semantic
+fatal error: recursive constructor call detected,semantic
+error: invalid template specialization syntax,semantic
+error: conflicting types for ‘foo’,semantic
+runtime error: stack underflow detected,semantic
+error: trying to use deleted assignment operator,semantic
+error: invalid placement new expression,semantic
+fatal error: multiple inheritance causes ambiguity,semantic
+runtime error: write access violation,semantic
+error: operator ‘==’ is ambiguous,semantic
+fatal error: template instantiation failed due to circular dependency,semantic
+runtime error: exception thrown after std::terminate,semantic
+error: too few template arguments provided,semantic
+error: wrong number of arguments for function call,semantic
+fatal error: invalid memory deallocation detected,semantic
+runtime error: corrupted vtable pointer,semantic
+error: function cannot return reference to local variable,semantic
+error: invalid bitwise operation on floating point type,semantic
+fatal error: deleted copy constructor called,semantic
+runtime error: object slicing detected,semantic
+error: constructor initializer does not match member type,semantic
+fatal error: throw expression not permitted here,semantic
+error: virtual member function invoked from constructor,semantic
+runtime error: concurrent access to shared pointer,semantic
+error: dangling reference bound to destroyed object,semantic
+fatal error: base class constructor not accessible,semantic
+error: deleting array with non-array delete,semantic
+runtime error: unexpected segmentation fault,semantic
+error: invalid return type ‘void’ for operator overload,semantic
+error: assignment to const data member,semantic
+fatal error: move assignment operator is deleted,semantic
+runtime error: concurrent vector modification detected,semantic
+error: static_cast from pointer to smaller integer type,semantic
+error: attempting to free memory not allocated by malloc,semantic
+fatal error: undefined reference to vtable,semantic
+runtime error: concurrent modification of map,semantic
+error: trying to modify string literal,semantic
+error: conversion from ‘const char*’ to ‘bool’ is ambiguous,semantic
+fatal error: bad typeid call on null pointer,semantic
+error: cannot form pointer-to-member of incomplete class,semantic
+runtime error: exception occurred during destruction,semantic
+error: invalid operand types to binary ‘operator%’,semantic
+fatal error: corrupted RTTI information detected,semantic
+error: reference to member ‘x’ of incomplete type ‘Foo’,semantic
+runtime error: invalid conversion from void pointer,semantic
+error: class ‘Derived’ must implement pure virtual function,semantic
+fatal error: friend declaration conflicts with existing declaration,semantic
+runtime error: accessing invalidated iterator,semantic
+error: cannot bind rvalue reference to lvalue,semantic
+error: incompatible function pointer types,semantic
+fatal error: failed dynamic_cast between unrelated classes,semantic
+runtime error: heap corruption detected at delete,semantic
+error: expected array of known bound,semantic
+error: initializer element is not constant,semantic
+fatal error: variable used before initialization,semantic
+runtime error: bad function call,semantic
+error: cannot take address of bit-field,semantic
+fatal error: use of private destructor,semantic
+error: invalid function pointer conversion,semantic
+runtime error: double delete detected,semantic
+error: pure specifier only allowed for virtual functions,semantic
+error: overloaded function ambiguity detected,semantic
+fatal error: recursive constexpr evaluation depth exceeded,semantic
+runtime error: invalid thread join detected,semantic
+error: class template requires template argument list,semantic
+error: uninitialized const variable used,semantic
+fatal error: invalid function call to deleted operator,semantic
+runtime error: buffer overflow during file read,semantic
+error: constexpr variable must be initialized,semantic
+fatal error: incompatible pointer-to-member types,semantic
+error: taking address of rvalue temporary,semantic
+runtime error: memory double free in destructor,semantic
+error: variable declared but never referenced,semantic
+fatal error: cannot use incomplete type as parameter,semantic
+runtime error: stack buffer overflow detected,semantic
+error: deleting incomplete type ‘struct Foo’,semantic
+fatal error: exception rethrown with wrong type,semantic
+error: ambiguous operator ‘+’ used,semantic
+error: pointer to array used incorrectly,semantic
+fatal error: throw called outside catch block,semantic
+runtime error: heap-use-after-free detected,semantic
+error: assignment of member in const object,semantic
+fatal error: type redefinition in same scope,semantic
+error: invalid const_cast on non-pointer,semantic
+runtime error: illegal memory access exception,semantic
+error: division by zero in constexpr context,semantic
+fatal error: dynamic allocation in constexpr function,semantic
+error: returning pointer to local variable,semantic
+runtime error: mutex unlock without lock,semantic
+error: converting from pointer to smaller integer type,semantic
+fatal error: incomplete type used in sizeof,semantic
+error: ambiguous overload for ‘operator==’,semantic
+runtime error: corrupted call stack,semantic
+error: unexpected return type mismatch,semantic
+fatal error: deleting polymorphic object without virtual destructor,semantic
+runtime error: concurrent vector erase,semantic
+error: casting away const-qualification,semantic
+fatal error: no viable conversion from ‘string’ to ‘int’,semantic
+error: missing return statement in non-void function,semantic
+runtime error: dangling reference after return,semantic
+error: bitwise operation on signed integer overflow,semantic
+fatal error: conflicting linkage specifications,semantic
+runtime error: recursive function exceeded stack limit,semantic
+error: narrowing conversion from double to int,semantic
+fatal error: object destroyed while still referenced,semantic
+runtime error: allocation size overflow detected,semantic
+error: invalid use of non-static member function,semantic
+fatal error: variable-sized array not supported in standard C++,semantic
+runtime error: accessing released resource,semantic
+fatal error: undefined behavior detected at runtime,semantic
+runtime error: invalid pointer alignment detected,semantic
+error: type mismatch in assignment expression,semantic
+fatal error: implicit conversion loses precision,semantic
+error: assigning incompatible pointer types,semantic
+runtime error: corrupted program state detected,semantic
+error: invalid reinterpret_cast between unrelated types,semantic
+fatal error: dangling reference returned from function,semantic
+runtime error: read access violation,semantic
+error: use of deleted function ‘operator=’,semantic
+fatal error: dynamic_cast to non-polymorphic type,semantic
+error: undefined symbol referenced in function,semantic
+runtime error: resource leak detected,semantic
+error: invalid static_cast from derived to base type,semantic
+fatal error: pure virtual function called during destruction,semantic
+runtime error: concurrent modification exception,semantic
+error: no viable overloaded operator ‘<’,semantic
+fatal error: mismatched pointer types in function call,semantic
+runtime error: stack overflow due to deep recursion,semantic
+"error: missing terminating \ character""",lexical
+error: unknown escape sequence '\\xZ',lexical
+error: unterminated string or character constant,lexical
+error: invalid universal character name '\\uXYZ1',lexical
+fatal error: unexpected end of file in string literal,lexical
+error: stray '\\377' character in program,lexical
+main.cpp:12:5: error: invalid preprocessing directive,lexical
+error: missing header file <iostream>,lexical
+fatal error: #endif without #if,lexical
+error: invalid macro redefinition,lexical
+error: character constant too long for its type,lexical
+error: illegal trigraph sequence encountered,lexical
+main.cpp:45:2: error: stray '\\345' in program,lexical
+error: stray '@' symbol in preprocessor directive,lexical
+fatal error: unexpected '#' in macro expansion,lexical
+error: unknown token before 'using',lexical
+error: invalid UTF-8 sequence in source file,lexical
+fatal error: control character in identifier name,lexical
+error: stray '&' at beginning of expression,lexical
+error: invalid encoding in source file,lexical
+error: unexpected end of macro argument list,lexical
+fatal error: unrecognized escape sequence,lexical
+error: unrecognized preprocessing directive,lexical
+error: stray '\\n' character in expression,lexical
+error: stray '\\t' in macro definition,lexical
+error: invalid character constant,lexical
+error: unknown directive #invalid,lexical
+fatal error: macro expansion exceeded limit,lexical
+error: invalid hexadecimal escape sequence,lexical
+error: invalid suffix on integer constant,lexical
+error: stray '`' in identifier name,lexical
+error: file not found: 'missing.hpp',lexical
+fatal error: recursive include detected,lexical
+error: malformed #pragma statement,lexical
+error: unexpected end of #include,lexical
+error: comment not closed before EOF,lexical
+error: invalid universal character name,lexical
+error: stray '$' in expression,lexical
+fatal error: unrecognized compiler pragma,lexical
+error: expected initializer before '}' token,syntactic
+main.cpp:25:5: error: expected declaration before '}',syntactic
+error: expected primary-expression before ')' token,syntactic
+fatal error: missing ')' after argument list,syntactic
+error: invalid use of 'else' without matching 'if',syntactic
+error: expected declaration specifiers,syntactic
+error: missing ';' before return statement,syntactic
+fatal error: unmatched '{' at end of file,syntactic
+error: invalid syntax near 'case',syntactic
+error: missing colon in switch case,syntactic
+error: unexpected keyword 'public' outside class,syntactic
+fatal error: 'try' without matching 'catch',syntactic
+error: expected 'catch' or 'finally' block,syntactic
+error: misplaced access specifier,syntactic
+main.cpp:100:12: error: expected class-key before identifier,syntactic
+error: unexpected token 'namespace',syntactic
+error: declaration not allowed here,syntactic
+fatal error: stray parenthesis before function,syntactic
+error: expected '{' at end of declaration,syntactic
+error: empty character constant,syntactic
+error: unmatched angle brackets in template,syntactic
+error: misplaced template parameter list,syntactic
+fatal error: unexpected end of template argument list,syntactic
+error: missing comma in parameter list,syntactic
+error: invalid type specifier before variable name,syntactic
+error: duplicate 'const' specifier,syntactic
+fatal error: missing 'typename' before dependent type,syntactic
+error: invalid 'using' declaration syntax,syntactic
+error: expected 'typename' before nested name specifier,syntactic
+error: unexpected semicolon in class definition,syntactic
+error: invalid placement of return statement,syntactic
+fatal error: missing condition in for loop,syntactic
+error: expected ';' before '}' token,syntactic
+error: multiple storage class specifiers,syntactic
+error: misplaced 'friend' declaration,syntactic
+fatal error: unexpected '::' in declaration,syntactic
+error: missing type specifier,syntactic
+error: invalid label in goto statement,syntactic
+error: invalid syntax near enum declaration,syntactic
+error: missing closing brace in class,syntactic
+error: nested function declaration not allowed,syntactic
+fatal error: misplaced default label,syntactic
+error: expected 'template' keyword before identifier,syntactic
+error: declaration does not declare anything,syntactic
+error: expected expression after '=',syntactic
+fatal error: duplicate case label in switch,syntactic
+error: misplaced typedef in function body,syntactic
+error: invalid operator declaration syntax,syntactic
+error: declaration conflicts with previous typedef,syntactic
+error: stray comma at end of enum list,syntactic
+fatal error: misplaced template definition,syntactic
+error: expected type-name before '*' token,syntactic
+error: unexpected keyword 'private',syntactic
+error: variable declared void,syntactic
+error: invalid constructor definition,syntactic
+fatal error: misplaced destructor declaration,syntactic
+error: missing '=' in constant expression,syntactic
+error: invalid reference declarator,syntactic
+error: 'sizeof' applied to incomplete type,semantic
+fatal error: invalid arithmetic operation on pointer,semantic
+error: dereferencing nullptr,semantic
+error: dividing by zero constant,semantic
+error: invalid pointer subtraction,semantic
+error: function call on incomplete type,semantic
+fatal error: array index out of range,semantic
+error: invalid argument passed to function,semantic
+error: incompatible types in conditional,semantic
+runtime error: access to freed pointer,semantic
+error: uninitialized pointer used,semantic
+fatal error: mismatched memory allocation,semantic
+error: invalid static member access,semantic
+error: assigning const value to non-const variable,semantic
+runtime error: overflow in multiplication,semantic
+error: invalid use of deleted copy constructor,semantic
+fatal error: binding reference to temporary,semantic
+error: assignment to read-only object,semantic
+error: invalid operand type for operator==,semantic
+runtime error: invalid cast from base to derived,semantic
+error: redeclaration of function with different return type,semantic
+error: incompatible pointer types,semantic
+fatal error: invalid dynamic_cast from base,semantic
+error: invalid conversion from const char* to char*,semantic
+runtime error: buffer overflow detected,semantic
+error: incompatible function return type,semantic
+error: dereferencing invalid iterator,semantic
+fatal error: new-expression allocation failure,semantic
+error: invalid reference to deleted variable,semantic
+error: conversion loses precision,semantic
+runtime error: dangling pointer dereference,semantic
+error: incompatible array types in assignment,semantic
+fatal error: attempt to free non-heap memory,semantic
+error: function returning local reference,semantic
+error: implicit conversion from double to int,semantic
+runtime error: integer overflow,semantic
+error: invalid use of void expression,semantic
+error: ambiguous overload for operator+,semantic
+fatal error: multiple definition of variable,semantic
+error: invalid operand type for unary minus,semantic
+error: implicit conversion changes signedness,semantic
+runtime error: use of invalidated iterator,semantic
+error: incompatible array bounds in initialization,semantic
+error: invalid template argument type,semantic
+fatal error: recursive macro expansion,semantic
+error: incompatible pointer assignment,semantic
+error: invalid member access through pointer,semantic
+runtime error: use-after-free detected,semantic
+error: invalid argument to delete operator,semantic
+error: invalid address-of operand,semantic
+fatal error: calling function on destroyed object,semantic
+error: invalid member initialization,semantic
+error: arithmetic overflow in constant expression,semantic
+runtime error: segmentation fault during execution,semantic
+error: invalid conversion from pointer to bool,semantic
+fatal error: call to deleted move constructor,semantic
+error: use of undefined variable,semantic
+error: ambiguous function call,semantic
+runtime error: race condition detected,semantic
+error: invalid cast from int to pointer type,semantic
+error: attempt to divide by literal zero,semantic
+fatal error: pointer arithmetic overflow,semantic
+error: invalid constructor call syntax,semantic
+error: deleting void pointer,semantic
+runtime error: heap corruption detected,semantic
+error: use of variable before initialization,semantic
+error: conflicting declaration types,semantic
+fatal error: bad array new length,semantic
+error: use of deleted destructor,semantic
+error: assigning incompatible value types,semantic
+runtime error: null dereference detected,semantic
+error: conflicting declaration with previous typedef,semantic
+fatal error: unreachable statement detected,semantic
+error: invalid reinterpret_cast to unrelated type,semantic
+error: too few arguments in function call,semantic
+runtime error: floating point overflow,semantic
+error: comparison of pointer and integer,semantic
+fatal error: type mismatch in template argument,semantic
+error: assigning void to non-void variable,semantic
+error: array size must be constant,semantic
+runtime error: invalid type conversion at runtime,semantic
+fatal error: macro expansion failed,lexical
+error: missing header guard,lexical
+error: stray '^' character in file,lexical
+error: illegal character in preprocessing directive,lexical
+fatal error: unterminated macro parameter list,lexical
+error: expected '>' in template include,lexical
+error: malformed token in directive,lexical
+fatal error: directive #else without #if,lexical
+error: stray ':' in macro definition,lexical
+error: invalid preprocessing token,lexical
+fatal error: missing #endif before EOF,lexical
+error: stray '~' in program,lexical
+error: extra '#' at line start,lexical
+error: stray '/' before include,lexical
+error: invalid header file syntax,lexical
+fatal error: include path not specified,lexical
+error: unexpected whitespace in macro,lexical
+error: stray '!' before identifier,lexical
+fatal error: unterminated comment section,lexical
+error: invalid UTF sequence detected,lexical
+error: stray '+' before keyword,lexical
+fatal error: nested include depth exceeded,lexical
+error: bad token sequence in macro,lexical
+error: stray '|' in include path,lexical
+error: file extension not recognized,lexical
+fatal error: missing header dependency,lexical
+error: invalid preprocessing escape,lexical
+"error: stray ',' at file start",lexical
+error: bad filename literal,lexical
+error: invalid directive '#macro',lexical
+error: stray '<' in identifier,lexical
+fatal error: unrecognized compiler flag,lexical
+error: missing terminating > in include,lexical
+error: unescaped newline in macro,lexical
+error: stray '$' in macro definition,lexical
+error: unrecognized escape in macro name,lexical
+error: stray tab before '#include',lexical
+error: invalid encoding character,lexical
+error: file name contains illegal character,lexical
+fatal error: bad source file format,lexical
+error: invalid literal before directive,lexical
+fatal error: invalid character constant,lexical
+error: stray '\\' at end of file,lexical
+error: expected declaration specifier,syntactic
+fatal error: missing function parameter list,syntactic
+error: missing ')' after type name,syntactic
+error: missing ':' in initializer list,syntactic
+error: multiple 'default' labels in switch,syntactic
+error: invalid label in statement,syntactic
+fatal error: expected ';' after declaration,syntactic
+error: expected '{' after function declaration,syntactic
+error: unbalanced parentheses,syntactic
+fatal error: stray '}' at global scope,syntactic
+error: invalid constructor declaration,syntactic
+error: expected 'catch' after try block,syntactic
+fatal error: missing body for 'else' clause,syntactic
+error: missing parameter in lambda capture,syntactic
+error: invalid lambda expression syntax,syntactic
+error: unexpected 'return' in class body,syntactic
+fatal error: misplaced friend function,syntactic
+error: empty function body,syntactic
+error: invalid conditional expression,syntactic
+fatal error: case label not within switch,syntactic
+error: missing comma in argument list,syntactic
+error: redeclaration of local variable,syntactic
+error: missing statement terminator,syntactic
+fatal error: label used but not defined,syntactic
+error: unknown storage class specifier,syntactic
+error: nested template declaration,syntactic
+error: unclosed parentheses in parameter list,syntactic
+fatal error: declaration expected,syntactic
+error: stray keyword in expression,syntactic
+error: invalid block scope placement,syntactic
+fatal error: non-terminated class declaration,syntactic
+error: misplaced 'typedef' declaration,syntactic
+error: unexpected keyword in expression,syntactic
+error: type specifier missing,syntactic
+fatal error: declaration does not declare anything,syntactic
+error: invalid inline specifier usage,syntactic
+error: declaration conflicts with global symbol,syntactic
+fatal error: unexpected static declaration,syntactic
+error: invalid initializer for array,syntactic
+error: misplaced access modifier,syntactic
+fatal error: missing 'try' around throw,syntactic
+error: misplaced catch handler,syntactic
+error: invalid 'new' declaration,syntactic
+fatal error: missing type before variable name,syntactic
+error: misplaced throw statement,syntactic
+error: invalid sizeof usage,syntactic
+fatal error: statement has no effect,syntactic
+error: incomplete type definition,semantic
+error: incompatible return type,semantic
+fatal error: memory leak detected,semantic
+error: assigning pointer to integer,semantic
+runtime error: invalid pointer dereference,semantic
+error: illegal pointer arithmetic,semantic
+fatal error: uninitialized variable access,semantic
+error: dereferencing dangling pointer,semantic
+runtime error: heap overflow,semantic
+error: null reference dereference,semantic
+fatal error: assigning to const variable,semantic
+error: mismatched pointer assignment,semantic
+runtime error: corrupted heap block,semantic
+error: invalid implicit conversion,semantic
+error: function arguments do not match,semantic
+error: dereferencing type 'void',semantic
+error: invalid object member access,semantic
+fatal error: accessing deleted object,semantic
+error: invalid type promotion,semantic
+runtime error: division by zero,semantic
+error: invalid cast between unrelated types,semantic
+error: calling pure virtual function,semantic
+fatal error: memory corruption detected,semantic
+error: undefined behavior detected,semantic
+runtime error: stack buffer overflow,semantic
+error: dynamic_cast to wrong type,semantic
+fatal error: new allocation failed,semantic
+error: function call on destroyed object,semantic
+runtime error: invalid reinterpret_cast,semantic
+error: assigning const to non-const reference,semantic
+fatal error: access violation,semantic
+error: bad dynamic_cast,semantic
+runtime error: pointer address misaligned,semantic
+error: assigning incompatible function pointer,semantic
+fatal error: mismatched delete operator,semantic
+error: dangling reference returned,semantic
+error: invalid object slicing,semantic
+fatal error: null reference passed to function,semantic
+error: pointer conversion loses precision,semantic
+runtime error: double free detected,semantic
+error: invalid array indexing,semantic
+fatal error: dereferencing wild pointer,semantic
+error: accessing freed pointer,semantic
+runtime error: segmentation fault detected,semantic
+error: invalid array subscript,semantic
+fatal error: overwriting memory beyond buffer,semantic
+error: calling method on null pointer,semantic
+runtime error: invalid jump address,semantic
+error: accessing uninitialized memory,semantic
+fatal error: type cast failed,semantic
+error: assignment discards qualifiers,semantic
+runtime error: invalid memory alignment,semantic
+error: invalid type of assignment,semantic
+fatal error: infinite recursion detected,semantic
+error: deleting pointer twice,semantic
+runtime error: object deleted still in use,semantic
+error: stack overflow due to recursion,semantic
+fatal error: object slicing detected,semantic
+error: invalid polymorphic conversion,semantic
+runtime error: heap use after free,semantic
+fatal error: dereferencing nullptr,semantic
+error: binding rvalue to non-const lvalue reference,semantic
+runtime error: dangling reference usage,semantic
+error: incompatible operand types,semantic
+fatal error: undefined operator overload,semantic
+error: invalid comparison between enum and int,semantic
+runtime error: memory double allocation,semantic
+error: invalid cast from pointer to bool,semantic
+fatal error: type mismatch in return statement,semantic
+error: assigning incompatible value,semantic
+runtime error: heap underflow detected,semantic
+error: uninitialized local variable,semantic
+fatal error: unreachable code detected,semantic
+error: invalid expression in constant context,semantic
+runtime error: corrupted reference,semantic
+error: out-of-bounds access,semantic
+fatal error: invalid reinterpret_cast usage,semantic
+error: multiple definition of variable,semantic
+runtime error: invalid template instantiation,semantic
+error: type mismatch in arithmetic operation,semantic
+fatal error: dereference of null object,semantic
+error: illegal pointer type conversion,semantic
+runtime error: invalid reference access,semantic
+error: passing uninitialized variable to function,semantic
+fatal error: recursive type dependency,semantic
+error: invalid arithmetic conversion,semantic
+runtime error: double deletion,semantic
+error: object used after scope end,semantic
+fatal error: stack overflow detected,semantic
+runtime error: memory leak in loop,semantic
+error: variable shadowing detected,semantic
+fatal error: non-constant condition in constexpr,semantic
+error: using deleted constructor,semantic
+runtime error: invalid operator usage,semantic
+error: non-const reference to temporary,semantic
+fatal error: type deduction failed,semantic
+error: invalid 'this' pointer,semantic
+runtime error: object lifetime violation,semantic
+error: dereferencing moved-from object,semantic
+fatal error: use of expired shared_ptr,semantic
+error: bad weak_ptr lock,semantic
+runtime error: reference count underflow,semantic
+error: incompatible type promotion,semantic
+fatal error: unsafe type casting,semantic
+error: binding const to mutable reference,semantic
+runtime error: invalid thread access,semantic
+error: invalid atomic operation,semantic
+fatal error: invalid memory barrier,semantic
+error: unsynchronized shared access,semantic
+error: atomic store to const object,semantic
+fatal error: overflow in atomic operation,semantic
+error: data race on global variable,semantic
+runtime error: use of dangling pointer,semantic
+error: dereference before initialization,semantic
+fatal error: out-of-memory exception,semantic
+error: accessing freed memory,semantic
+runtime error: corrupted memory detected,semantic
+error: use of invalidated pointer,semantic
+fatal error: segmentation fault,semantic
