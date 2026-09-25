@@ -1,15 +1,13 @@
 # analyzers.py
 """
 Contains all code analyzers for the Streamlit app.
-- CppCodeErrorAnalyzer: Compiles C++ code and classifies errors.
-- PythonCodeErrorAnalyzer: Executes Python code and classifies errors.
+- CppCodeErrorAnalyzer: Compiles C++ code (never runs it) and classifies
+  the compiler errors.
+- PythonCodeErrorAnalyzer: Executes Python code and classifies the error.
 
-These classes have been updated to:
-1.  Import the classifier definitions from error_classifier.py
-    (This is necessary for pickle.load() to work).
-2.  Use the new, improved error parsing for C++ and Python.
-3.  Call the classifier's built-in predict methods, which now handle
-    all text preprocessing automatically.
+The classifier definitions are imported from error_classifier.py so that
+pickle.load() can deserialize the saved models. The classifiers handle all
+text preprocessing themselves.
 """
 import subprocess
 import os
@@ -169,9 +167,8 @@ class CppCodeErrorAnalyzer(BaseCodeErrorAnalyzer):
 
     def _parse_output(self, output: str) -> List[str]:
         """
-        *** NEW: Parse g++ output to find *only* the 'error:' lines. ***
-        This is a much cleaner approach, discarding 'note:' and context lines,
-        which are likely confusing the model (Data Mismatch).
+        Parse g++ output to find *only* the 'error:' lines, discarding
+        'note:' and context lines, which would confuse the model.
         """
         if not output:
             return []
@@ -260,7 +257,7 @@ class CppCodeErrorAnalyzer(BaseCodeErrorAnalyzer):
                     ),
                     'summary': self._generate_summary([]),
                     'raw_stdout': '',
-                    'raw_stderr': 'TimeoutError: Compilation exceeded 1a seconds.'
+                    'raw_stderr': 'TimeoutError: Compilation exceeded 10 seconds.'
                 }
             except Exception as e:
                 return {'success': False, 'error': f'Compilation failed: {str(e)}'}
@@ -278,7 +275,6 @@ class CppCodeErrorAnalyzer(BaseCodeErrorAnalyzer):
 
 
 # --- Python Code Analyzer ---
-# (This section is UNCHANGED)
 
 class PythonCodeErrorAnalyzer(BaseCodeErrorAnalyzer):
 

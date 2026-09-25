@@ -1,6 +1,6 @@
 # mlbec3.py
 # Unified ML Training Script for C++ and Python Error Classification
-# (Now imports the classifier logic from error_classifier.py)
+# (The classifier logic lives in error_classifier.py)
 
 import pandas as pd
 import os
@@ -9,6 +9,21 @@ from sklearn.model_selection import train_test_split
 
 # Import the new classifier classes
 from error_classifier import CppErrorClassifier, PythonErrorClassifier
+
+def exception_name_baseline(X_train, y_train, X_test, y_test):
+    """
+    Non-ML baseline: predict the most common label seen in training for the
+    message's exception name (e.g. "NameError"). The model should beat this.
+    """
+    def name(msg):
+        return msg.split(':', 1)[0].strip()
+
+    by_name = pd.DataFrame({'name': X_train.map(name), 'label': y_train})
+    lookup = by_name.groupby('name')['label'].agg(lambda s: s.mode()[0])
+    fallback = y_train.mode()[0]
+    preds = X_test.map(name).map(lookup).fillna(fallback)
+    print(f"Exception-name baseline accuracy: {(preds == y_test).mean():.4f}")
+
 
 def main_training(language: str):
     """
@@ -35,22 +50,32 @@ def main_training(language: str):
         print(f"Dataset loaded: {len(X)} samples.")
         print("Class distribution:\n", y.value_counts(normalize=True))
 
-        # 2. Split Data
+        # 2. Deduplicate on the preprocessed text, so no test message also
+        #    appears in training (e.g. Python rows that differ only by a
+        #    "[line:.. col:.. id:..]" suffix collapse into one message).
+        processed = X.apply(trainer.preprocess_text)
+        unique = ~processed.duplicated()
+        X, y = X[unique], y[unique]
+        print(f"After deduplication: {len(X)} distinct messages.")
+
+        # 3. Split Data
         print("Splitting data (80% train, 20% test)...")
         X_train, X_test, y_train, y_test = train_test_split(
             X, y, test_size=0.2, random_state=42, stratify=y
         )
 
-        # 3. Fit Preprocessors (Vectorizer, Encoder)
+        # 4. Fit Preprocessors (Vectorizer, Encoder)
         trainer.fit_vectorizer_and_encoder(X_train, y_train)
 
-        # 4. Train Model
+        # 5. Train Model
         trainer.train(X_train, y_train)
 
-        # 5. Evaluate Model
+        # 6. Evaluate Model
         trainer.evaluate(X_test, y_test)
+        if language == 'python':
+            exception_name_baseline(X_train, y_train, X_test, y_test)
 
-        # 6. Save Model
+        # 7. Save Model
         trainer.save_model(model_save_path)
 
         print(f"\n--- {language.upper()} training complete. Model saved to {model_save_path} ---")

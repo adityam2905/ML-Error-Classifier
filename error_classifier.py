@@ -1,15 +1,12 @@
 # error_classifier.py
 """
-This new file contains the core machine learning logic for *both* C++ and Python
-error classification.
+Core machine learning logic for both C++ and Python error classification.
 
-By centralizing the classifier logic here, we can:
-1.  Share it between the training script (mlbec3.py) and the analysis
-    script (analyzers.py).
-2.  Ensure that the *exact same* text preprocessing pipeline is used during
-    training and live analysis, which dramatically improves accuracy.
-3.  Implement advanced, language-specific text cleaning (e.g., removing
-    file paths, line numbers, and variable names).
+Keeping the classifiers here means:
+1.  The training script (mlbec3.py) and the app (analyzers.py) share them.
+2.  The exact same text preprocessing runs during training and live analysis.
+3.  Each language gets its own text cleaning (e.g., removing file paths,
+    line numbers, and quoted identifiers).
 """
 
 import pandas as pd
@@ -83,7 +80,7 @@ class BaseErrorClassifier:
             ngram_range=(1, 2), stop_words='english')
         self.label_encoder = LabelEncoder()
         self.models = {
-            'LogisticRegression': LogisticRegression(max_iter=1000, C=1.0, solver='liblinear'),
+            'LogisticRegression': LogisticRegression(max_iter=1000, C=1.0),
             'RandomForest': RandomForestClassifier(n_estimators=100, random_state=42),
             'MultinomialNB': MultinomialNB(alpha=0.1),
             'SVC': SVC(probability=True, C=1.0, kernel='linear', random_state=42)
@@ -274,7 +271,6 @@ class BaseErrorClassifier:
 
 # ----------------------------------------------------
 # C++ Specific Classifier
-# (UNCHANGED from your last working version)
 # ----------------------------------------------------
 
 class CppErrorClassifier(BaseErrorClassifier):
@@ -282,6 +278,19 @@ class CppErrorClassifier(BaseErrorClassifier):
     C++ Error Classifier.
     Implements C++-specific text preprocessing to clean compiler output.
     """
+
+    # The app only compiles C++ (it never runs the binary), so runtime
+    # diagnostics can never reach the classifier. Drop them from training.
+    RUNTIME_ONLY = re.compile(
+        r'^\s*(runtime (error|warning)|segmentation fault)'
+        r'|fatal error: (segmentation fault|undefined behavior detected at runtime)',
+        re.I)
+
+    def load_dataset(self, filepath: str):
+        X, y = super().load_dataset(filepath)
+        keep = ~X.str.contains(self.RUNTIME_ONLY)
+        print(f"Dropped {(~keep).sum()} runtime-only rows (C++ code is compiled, never run).")
+        return X[keep], y[keep]
 
     def preprocess_text(self, text: str) -> str:
         """
@@ -313,7 +322,7 @@ class CppErrorClassifier(BaseErrorClassifier):
         cleaned = re.sub(r'\bwith\s+\[.*\]', ' ', cleaned, flags=re.I)
 
         # 9. Remove hexadecimal addresses
-        cleaned = re.sub(r'0x[a-fA-F0_9]+', ' ', cleaned)
+        cleaned = re.sub(r'0x[a-fA-F0-9]+', ' ', cleaned)
         
         # 10. Remove C++ carets and tildes from diagnostics
         cleaned = re.sub(r'[\^\~]+', ' ', cleaned)
@@ -330,7 +339,6 @@ class CppErrorClassifier(BaseErrorClassifier):
 
 # ----------------------------------------------------
 # Python Specific Classifier
-# (*** THIS IS THE UPDATED PART ***)
 # ----------------------------------------------------
 
 class PythonErrorClassifier(BaseErrorClassifier):
@@ -350,7 +358,7 @@ class PythonErrorClassifier(BaseErrorClassifier):
         #    We replace the colon with a space.
         cleaned = re.sub(r'^([a-zA-Z_]*Error):', r'\1 ', text, flags=re.I)
         
-        # 2. Handle SytaxError differently, as it's often multi-line in trace
+        # 2. Handle SyntaxError differently, as it's often multi-line in trace
         #    If the input text is just "SyntaxError: invalid syntax"
         if "SyntaxError:" in cleaned:
              # Make it a single token "syntaxerror"

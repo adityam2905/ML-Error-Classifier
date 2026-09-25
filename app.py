@@ -1,18 +1,16 @@
 """
 Streamlit App for C++ and Python Error Classification.
 
-This file requires minimal changes, as all the new logic is
-encapsulated in 'analyzers.py' and 'error_classifier.py'.
-
-The NLTK data download is now handled when 'error_classifier.py'
-is imported (which happens via 'analyzers.py'), so we don't
-need to worry about it here.
+The analysis logic lives in 'analyzers.py' and the ML logic in
+'error_classifier.py'. NLTK data is downloaded when 'error_classifier.py'
+is imported (via 'analyzers.py').
 """
 import streamlit as st
 import os
 import io
 
-# Import analyzers from the updated single file
+st.set_page_config(page_title="Code Error Classifier", layout="wide")
+
 # This import chain also triggers the NLTK download check
 # (app.py -> analyzers.py -> error_classifier.py)
 try:
@@ -22,7 +20,7 @@ except ImportError as e:
         f"Failed to import analyzers. Is 'error_classifier.py' missing? Error: {e}")
     st.stop()
 
-# ======================== THEME STYLING (V3 - FINAL FIX) ==========================
+# ======================== THEME STYLING ==========================
 st.markdown("""
 <style>
 /* Base */
@@ -475,7 +473,7 @@ def display_results(results: dict, language: str):
             if probs:
                 prob_df = {"Error Type": [k.replace('_', ' ').title() for k in probs.keys()],
                            "Probability": [f"{v:.2%}" for v in probs.values()]}
-                st.dataframe(prob_df, use_container_width=True)
+                st.dataframe(prob_df, width="stretch")
             else:
                 st.write("No probability distribution available.")
 
@@ -489,8 +487,6 @@ def display_results(results: dict, language: str):
 # --------------------------------------------------------
 # MAIN STREAMLIT APP
 # --------------------------------------------------------
-st.set_page_config(page_title="Code Error Classifier", layout="wide")
-
 st.title("ML Based Code Error Classifier")
 st.markdown(
     "Upload a C++ or Python file to detect and classify code errors using ML.")
@@ -536,7 +532,7 @@ else:
 if code:
     with st.expander("Show Code"):
         st.code(code, language="cpp" if language == "C++" else "python")
-    if st.button("Analyze Code", type="primary", use_container_width=True):
+    if st.button("Analyze Code", type="primary", width="stretch"):
         with st.spinner(f"Running and classifying {language} errors..."):
             results = analyzer.analyze(code)
             display_results(results, language)
